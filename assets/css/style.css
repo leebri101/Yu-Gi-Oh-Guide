@@ -1,0 +1,48 @@
+body {
+    margin:0%;
+    padding: 0%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.2em;
+   } 
+   
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+}
+
+nav li {
+    font-size: 1.5em;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    display: inline-block;
+    margin: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+}
+
+nav a:hover{
+    text-decoration: none;
+    background-color: #ffff;
+    color:#4a4a4f;
+}
+.card a{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+.wallpaper{
+    background-image: url('https://w.wallha.com/ws/13/PhT1bVxg.jpg');
+    background-repeat: no-repeat;
+    width: 20%;
+    margin-right: 10%;
+}
