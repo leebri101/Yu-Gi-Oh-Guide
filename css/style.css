@@ -40,7 +40,7 @@ nav a:hover{
 h2{
     text-align: center;
 }
-#wallpaper{
+.wallpaper{
     background-image: url('https://w.wallha.com/ws/13/PhT1bVxg.jpg');
     background-repeat: no-repeat;
     width: 20%;
