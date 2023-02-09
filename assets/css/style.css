@@ -10,7 +10,7 @@ body {
    
 nav ul {
     list-style: none;
-    background-color: #0af5f5;
+    background-color: #4a4a4f;
 }
 
 nav li {
@@ -37,9 +37,26 @@ nav a:hover{
     text-align: center;
 }
 
-h2{
-    text-align: center;
-}
-h1{
+h2, h4{
+    text-decoration: none;
     text-align: left;
+    font-family: montserrat;
+    background-color: #4a4a4f;
+    color:#4a4a4f
+}
+.kuriboh{
+    text-decoration: none;
+    width: 111px;
+    height: 190px;
+}
+
+.kuriboh img{
+    text-decoration: none;
+    height: 55px;
+    width: 100px;
+}
+
+#banner{
+    background-image: url('https://d1rw89lz12ur5s.cloudfront.net/photo/ttdcards/file/9a432f20868711e6afa6bf0f53c5bbaf/splashBanner_yugioh.jpg'); 
+    background-position: bottom;
 }
