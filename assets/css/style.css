@@ -10,7 +10,7 @@ body {
    
 nav ul {
     list-style: none;
-    background-color: #4a4a4f;
+    background-color: #0af5f5;
 }
 
 nav li {
@@ -40,9 +40,6 @@ nav a:hover{
 h2{
     text-align: center;
 }
-.wallpaper{
-    background-image: url('https://w.wallha.com/ws/13/PhT1bVxg.jpg');
-    background-repeat: no-repeat;
-    width: 20%;
-    margin-right: 10%;
+h1{
+    text-align: left;
 }
