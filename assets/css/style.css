@@ -46,17 +46,24 @@ h2, h4{
 }
 .kuriboh{
     text-decoration: none;
-    width: 111px;
-    height: 190px;
+    width: 380px;
+    height: 222px;
 }
 
 .kuriboh img{
     text-decoration: none;
-    height: 55px;
-    width: 100px;
+    width: 200px;
+    height: 111px;
+    position: relative;
+    
 }
 
 #banner{
     background-image: url('https://d1rw89lz12ur5s.cloudfront.net/photo/ttdcards/file/9a432f20868711e6afa6bf0f53c5bbaf/splashBanner_yugioh.jpg'); 
-    background-position: bottom;
+    background-position:  bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    background-color: #365b68;
+
 }
