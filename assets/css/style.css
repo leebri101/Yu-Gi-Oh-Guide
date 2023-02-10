@@ -1,14 +1,14 @@
 body {
     margin:0%;
     padding: 0%;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: Lato, sans-serif;
     text-align: center;
-    margin: 0%;
-    padding: 0%;
     font-size: 1.2em;
+    font-weight: 300;
+
    } 
    
-nav ul {
+/* nav ul {
     list-style: none;
     background-color: #4a4a4f;
 }
@@ -32,18 +32,12 @@ nav a:hover{
     text-decoration: none;
     background-color: #ffff;
     color:#4a4a4f;
-}
+} 
+*/
 .card a{
     text-align: center;
 }
 
-h2, h4{
-    text-decoration: none;
-    text-align: left;
-    font-family: montserrat;
-    background-color: #4a4a4f;
-    color:#4a4a4f
-}
 .kuriboh{
     text-decoration: none;
     width: 380px;
@@ -59,11 +53,8 @@ h2, h4{
 }
 
 #banner{
-    background-image: url('https://d1rw89lz12ur5s.cloudfront.net/photo/ttdcards/file/9a432f20868711e6afa6bf0f53c5bbaf/splashBanner_yugioh.jpg'); 
-    background-position:  bottom;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: contain;
-    background-color: #365b68;
+    background-image: url('../images/thumb-1920-1214259.jpg' );
+    height: 600px;
+    width: 100%; 
 
 }
