@@ -15,7 +15,7 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ffff;
+    color: #FFD700;
  } 
 
  #logo {
@@ -23,6 +23,7 @@ body {
     float: left;
     font-size: 200%;
     line-height: 75px;
+    position: relative;
  }
 #menu, logo{
     text-decoration: none;
@@ -33,49 +34,71 @@ body {
     text-decoration: none;
     font-size: 100%;
     letter-spacing: 2px;
+    position: relative;
  }
  #menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    position: relative;
  }
 #menu a{
     text-decoration: none;
-    color: #f2e6e6 ;
+    color: #FFD700;
+    position: relative;
 }
-.card a{
+#menu a:hover{
+    text-decoration: none;
+    ;
+}
+
+#card{
+    background-image: url('../images/TCG_logo_500x500.png');
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
 }
 
-.kuriboh{
-    text-decoration: none;
-    width: 380px;
-    height: 222px;
-}
-
-.kuriboh img{
-    text-decoration: none;
-    width: 200px;
-    height: 111px;
-    position: relative;
-    
-}
-
-#banner{
-    background-image: url('../images/thumb-1920-1214259.jpg' );
+#banner-outer{
     height: 600px;
     width: 100%; 
-
+    overflow: hidden;
+}  
+#banner-outer2{
+    height: 600px;
+    width: 100%; 
+    overflow: hidden;
+}   
+#banner{
+    background-image: url('../images/thumb-1920-1214259.jpg'); 
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #galaxy_eyes{
     background-image: url('../images/Number\ 107\ card\ 2.jpg');
     background-repeat: no-repeat, repeat;
-    background-position: top center, top center;
+    background-position: bottom, top center;
+    position: relative;
     height: 446px;
     width: 450px;
     font-size: 25px;
     color: #DDA0DD;
-    text-align: center;
-    
+    text-align: right; 
 }
+
+#banner2{
+    background-image: url('../images/yugioh_media_slider_042018-2x.jpg');
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
