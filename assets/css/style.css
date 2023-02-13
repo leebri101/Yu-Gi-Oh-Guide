@@ -5,6 +5,7 @@ body {
     color: #3a3a3a;
     font-size: 25px;
    } 
+
  *{
     padding: 0;
     margin: 0;
@@ -16,6 +17,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FFD700;
+    position: relative;
  } 
 
  #logo {
@@ -23,7 +25,7 @@ body {
     float: left;
     font-size: 200%;
     line-height: 75px;
-    position: relative;
+    position: absolute;
  }
 #menu, logo{
     text-decoration: none;
@@ -49,7 +51,12 @@ body {
 }
 #menu a:hover{
     text-decoration: none;
-    ;
+    color: rgb(R: 192, G: 192, and B: 192);
+    border-bottom: 1px solid #ffff;
+}
+
+.active{
+    border-bottom: 1px solid #ffff;
 }
 
 #card{
@@ -61,44 +68,76 @@ body {
 }
 
 #banner-outer{
-    height: 600px;
+    height: 450px;
     width: 100%; 
     overflow: hidden;
 }  
 #banner-outer2{
-    height: 600px;
-    width: 100%; 
+    height: 450px;
+    width: 50%; 
     overflow: hidden;
 }   
+
+#cover-text, cover-text h2{
+    color: #FFD700;
+}
+
+#cover-text{
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(R: 192, G: 192, and B: 192.);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
 #banner{
     background-image: url('../images/thumb-1920-1214259.jpg'); 
-    height: 600px;
+    height: 450px;
     width: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
+     
+    animation-name: banner;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
+
+@keyframes banner{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+ 
 #galaxy_eyes{
     background-image: url('../images/Number\ 107\ card\ 2.jpg');
-    background-repeat: no-repeat, repeat;
     background-position: bottom, top center;
-    position: relative;
+    float: bottom;
     height: 446px;
     width: 450px;
     font-size: 25px;
-    color: #DDA0DD;
+    color: #c364c3;
     text-align: right; 
 }
 
-#banner2{
-    background-image: url('../images/yugioh_media_slider_042018-2x.jpg');
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+p.clear{
+    clear:right
 }
+
 
