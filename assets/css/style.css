@@ -4,6 +4,7 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     font-size: 25px;
+    background-color: #504c80;
    } 
 
  *{
@@ -16,20 +17,28 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #FFD700;
-    position: relative;
+    color: #ac9437;
+    position: absolute;
  } 
+
+h3, h4{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ac9437;
+}
 
  #logo {
     text-decoration: none;
     float: left;
     font-size: 200%;
-    line-height: 75px;
-    position: absolute;
+    line-height: 50px;
+    margin-left: 30px;
  }
+
 #menu, logo{
     text-decoration: none;
-    line-height: 75px;
+    line-height: 50px;
 }
 
  #menu{
@@ -43,16 +52,17 @@ body {
     list-style-type: none;
     margin-right: 30px;
     position: relative;
+    margin-right: 30px;
  }
 #menu a{
     text-decoration: none;
-    color: #FFD700;
+    color: #ac9437;
     position: relative;
 }
 #menu a:hover{
     text-decoration: none;
-    color: rgb(R: 192, G: 192, and B: 192);
-    border-bottom: 1px solid #000;
+    color: #2e2b57;
+    border-bottom: 1px solid #ffffff; 
 }
 
 .active{
@@ -79,7 +89,8 @@ body {
 }   
 
 #cover-text, cover-text h2{
-    color: #FFD700;
+    color: #ac9437;
+    border:3px solid #2e2b57;
 }
 
 #cover-text{
@@ -87,19 +98,15 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-    width: 300px;
+    width: 200px;
     height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
-
-    background-color: rgb(R: 192, G: 192, and B: 192.);
-
+    
     bottom: 30px;
-    right: 150px;
-
-    position: absolute;
+    left: 200px;
+    position: relative;
 }
 
 #banner{
@@ -109,24 +116,25 @@ body {
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-     
-    animation-name: banner;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
  
 #banner2{
-    background-image: url('../images/photon-hypernova-category-banner.jpg'); 
-    height: 450px;
+    background-image: url('../images/yugioh+banner.png'); 
+    height: 300px;
     width: 100%;
-    background-repeat: no-repeat repeat;
-    background-size: contain;
-     
-    animation-name: banner2;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    border-width: 0;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
+  /*animation-name: banner2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;-->*/
+
+/*
 @keyframes banner{
     from{
         transform: scale(1);
@@ -144,21 +152,28 @@ body {
         transform: scale(1.1);
     }
 }
-
+*/
 #galaxy_eyes{
     background-image: url('../images/Number\ 107\ card\ 2.jpg');
-    background-position: bottom, top center;
-    float: bottom;
     height: 446px;
-    width: 450px;
+    width: 200;
     font-size: 25px;
-    color: #c364c3;
-    text-align: right; 
-    clear: bottom
+    color: #544fac;
+    text-align: left; 
+    clear: bottom;
+    position: relative;
+    background-repeat: no-repeat;
+    float:none;
 }
 
-p.clear{
-    clear:right
+footer{
+    color: #ffff;
 }
 
+p{
+    color: #ffff;
+}
 
+section{ 
+    color: #ffff;
+}
