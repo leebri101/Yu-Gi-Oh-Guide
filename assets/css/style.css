@@ -17,18 +17,26 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ac9437;
+    color: #bfa34d;
     position: absolute;
+    text-align: center;
  } 
 
-h3, h4{
+h3, h5{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ac9437;
+    color: #bfa34d;
 }
 
- #logo {
+h4{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bfa34d;
+}
+
+#logo {
     text-decoration: none;
     float: left;
     font-size: 200%;
@@ -56,12 +64,12 @@ h3, h4{
  }
 #menu a{
     text-decoration: none;
-    color: #ac9437;
+    color: #bfa34d;
     position: relative;
 }
 #menu a:hover{
     text-decoration: none;
-    color: #2e2b57;
+    color: #f9e2e1;
     border-bottom: 1px solid #ffffff; 
 }
 
@@ -89,8 +97,8 @@ h3, h4{
 }   
 
 #cover-text, cover-text h2{
-    color: #ac9437;
-    border:3px solid #2e2b57;
+    color: #bfa34d;
+    border: 10px solid #2e2b57;
 }
 
 #cover-text{
@@ -106,31 +114,21 @@ h3, h4{
     
     bottom: 30px;
     left: 200px;
-    position: relative;
+    float: right;
 }
 
 #banner{
-    background-image: url('../images/thumb-1920-1214259.jpg'); 
+    background-image: url('../images/wallpaper2you_17739.jpg'); 
     height: 450px;
     width: 100%;
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
- 
-#banner2{
-    background-image: url('../images/yugioh+banner.png'); 
-    height: 300px;
-    width: 100%;
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    border-width: 0;
-    margin-left: auto;
-    margin-right: auto;
-} 
 
-  /*animation-name: banner2;
+
+  /*animation-name: banner;
     animation-duration: 1s;
     animation-fill-mode: forwards;-->*/
 
@@ -158,22 +156,39 @@ h3, h4{
     height: 446px;
     width: 200;
     font-size: 25px;
-    color: #544fac;
+    color: #f9e2e1;
     text-align: left; 
-    clear: bottom;
+    clear: left;
     position: relative;
     background-repeat: no-repeat;
     float:none;
 }
 
-footer{
+footer, p , section{
     color: #ffff;
 }
 
-p{
-    color: #ffff;
+#infitrack{
+    
 }
 
-section{ 
-    color: #ffff;
+#home-page{
+    height:600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about{
+    width:33%;
+    margin: 0 auto;
 }
