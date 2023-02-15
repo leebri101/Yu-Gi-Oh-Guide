@@ -16,9 +16,9 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
 * Promoting the popularity of Yu-Gi-Oh as a fan to encourage more people to play the franchise.
 * Providing extra information on a extensive data base at which teh user can research at their own discretion.
 
-<!--### **User Stories:**
-* As a user, I want to see the subject matter of the page.
-* As a user, I want to navigate the page to find what I require quickly and easily.
-* As a user, I want to leave feeling as I know more about the subject when leaving each page than when I arrived at the site.
-* As a user, I was to be able to navigate my way to free resources easily.
-* As a user, I want to reach out and connect to discuss/experience the subject matter on a deeper level.--> 
+### **User Stories:**
+* As a user, I want to see information about the latest updates by Konami.
+* As a user, I want to navigate the page with ease.
+* As a user, I want to leave feeling as I know more about the Yu-Gi-Oh franchise.
+* As a user, I want to be able to play and connect with other people around the globe through different social media platforms.
+* As a user, I want to b able to play with different people through different means whether it is by a website, official franchise, games or in real life.
