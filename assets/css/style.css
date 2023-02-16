@@ -158,7 +158,7 @@ h4{
     font-size: 25px;
     color: #f9e2e1;
     text-align: left; 
-    clear: left;
+    clear: both;
     position: relative;
     background-repeat: no-repeat;
     float:none;
@@ -169,7 +169,16 @@ footer, p , section{
 }
 
 #infitrack{
-    
+    background-image: url('../images/infitrack.jpg');
+    font-size: 25px;
+    width: 200px;
+    height: 300px;
+    color: #f9e2e1;
+    text-align: left; 
+    clear: both;
+    position: relative;
+    background-repeat: no-repeat;
+    float: left;
 }
 
 #home-page{
@@ -180,7 +189,7 @@ footer, p , section{
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #bfa34d;
+
 }
 
 #right-about{
@@ -194,4 +203,12 @@ footer, p , section{
     width:33%;
     margin: 0 auto;
     background-color: #c5376f;
+}
+
+.left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
