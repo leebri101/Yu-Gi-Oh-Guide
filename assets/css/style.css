@@ -96,7 +96,7 @@ h4{
     overflow: hidden;
 }   
 
-#cover-text, cover-text h2{
+#cover-text, cover-text h4{
     color: #bfa34d;
     border: 10px solid #2e2b57;
 }
@@ -203,6 +203,12 @@ footer, p , section{
     width:33%;
     margin: 0 auto;
     background-color: #c5376f;
+}
+
+hr{
+    border-top: 1px solid #bfa34d;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .left-about-heading{
