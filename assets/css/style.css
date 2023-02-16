@@ -13,7 +13,7 @@ body {
     border: none;
  }
    
- h1, h2 {
+ h1{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,7 +86,7 @@ a:visited{
 }
 
 a:hover{
-    color:#f9e2e1;
+    color:#bfa34d;
     background-color: transparent;
     text-decoration: none;
 }
@@ -121,7 +121,7 @@ a:hover{
     font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     width: 200px;
     height: 100px;
 
@@ -131,6 +131,7 @@ a:hover{
     bottom: 30px;
     left: 200px;
     float: right;
+    
 }
 
 #banner{
@@ -143,30 +144,6 @@ a:hover{
     background-position: center;
 }
 
-
-  /*animation-name: banner;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;-->*/
-
-/*
-@keyframes banner{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
-@keyframes banner2{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-*/
 #galaxy_eyes{
     background-image: url('../images/Number\ 107\ card\ 2.jpg');
     height: 446px;
@@ -214,7 +191,6 @@ a:hover{
 #center-about{
     width:33%;
     margin: 0 auto;
-    background-color: #c5376f;
 }
 
 hr{
@@ -244,6 +220,30 @@ hr{
 
 .right-about-heading{
     text-align: right;
+}
+
+#welcome{
+    text-align: center;
+    color: #bfa34d;
+    margin-top: 50px 0;
+    font-size: 250%;
+} 
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c5376f;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg{
+    background: url('../images/linkuriboh.png');
+    height: 100%;
+    border-radius: 50%;
 }
 footer{
     text-align: center;
