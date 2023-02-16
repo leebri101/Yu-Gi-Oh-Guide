@@ -2,7 +2,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #ffffff;
     font-size: 25px;
     background-color: #504c80;
    } 
@@ -73,6 +73,24 @@ h4{
     border-bottom: 1px solid #ffffff; 
 }
 
+a:link{
+    color:#bfa34d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#c5376f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#f9e2e1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .active{
     border-bottom: 1px solid #ffffff;
 }
@@ -89,29 +107,27 @@ h4{
     height: 450px;
     width: 100%; 
     overflow: hidden;
+    position: relative;
 }  
-#banner-outer2{
-    height: 450px;
-    width: 50%; 
-    overflow: hidden;
-}   
+
+   
 
 #cover-text, cover-text h4{
     color: #bfa34d;
-    border: 10px solid #2e2b57;
+    border: 5px solid #2e2b57;
 }
 
 #cover-text{
     font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     width: 200px;
-    height: 200px;
+    height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
-    
+
     bottom: 30px;
     left: 200px;
     float: right;
@@ -161,12 +177,10 @@ h4{
     clear: both;
     position: relative;
     background-repeat: no-repeat;
-    float:none;
+    float: none;
 }
 
-footer, p , section{
-    color: #ffff;
-}
+
 
 #infitrack{
     background-image: url('../images/infitrack.jpg');
@@ -175,10 +189,9 @@ footer, p , section{
     height: 300px;
     color: #f9e2e1;
     text-align: left; 
-    clear: both;
+    clear: right;
     position: relative;
     background-repeat: no-repeat;
-    float: left;
 }
 
 #home-page{
@@ -196,7 +209,6 @@ footer, p , section{
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: #bfa34d;
 }
 
 #center-about{
@@ -218,3 +230,22 @@ hr{
     clear: both;
     margin-bottom: 50px;
 }
+.right-about-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    text-align: right;
+}
+
+.right-about-heading{
+    text-align: right;
+}
+footer{
+    text-align: center;
+}
+
