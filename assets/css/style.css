@@ -180,15 +180,18 @@ footer, p , section{
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-color: #bfa34d;
 }
 
 #right-about{
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-color: #bfa34d;
 }
 
 #center-about{
     width:33%;
     margin: 0 auto;
+    background-color: #c5376f;
 }
