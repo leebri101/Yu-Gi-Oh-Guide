@@ -180,7 +180,7 @@ a:hover{
 }
 
 #left-about{
-    padding-top: 30px;
+    padding-top: 40px;
     width: 33%;
     float: left;
 
@@ -206,14 +206,14 @@ hr{
 .left-about-heading{
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
 .right-about-heading{
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -234,23 +234,25 @@ hr{
 } 
 
 #circle-container{
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     padding: 10px;
     border-style: solid;
     border-color: #c5376f;
     border-width: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 0 auto;
+    
 }
 
 #circle-cover-bg{
-    background-image: url('../images/linkuriboh-center-image.png');
+    background-image: url('../images/linkuriboh_extended.jpg');
     height: 100%;
     border-radius: 50%;
     object-fit: fill;
     background-repeat: no-repeat;
     background-position: center center;
+    object-fit: cover;
 }
 
 
