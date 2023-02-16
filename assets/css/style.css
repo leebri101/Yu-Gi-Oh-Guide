@@ -7,6 +7,10 @@ body {
     background-color: #504c80;
    } 
 
+footer{
+    text-align: center;
+}
+
  *{
     padding: 0;
     margin: 0;
@@ -103,13 +107,13 @@ a:hover{
     text-align: center;
 }
 
+
 #banner-outer{
     height: 450px;
     width: 100%; 
     overflow: hidden;
     position: relative;
 }  
-
    
 
 #cover-text, cover-text h4{
@@ -155,15 +159,15 @@ a:hover{
     position: relative;
     background-repeat: no-repeat;
     float: none;
+    object-fit: fill;
 }
 
 
-
 #infitrack{
-    background-image: url('../images/infitrack.jpg');
+    background-image: url('../images/tumblr_2a712d9e05f7a57ab96836b394a0945a_fdd22df6_640.jpg');
     font-size: 25px;
     width: 200px;
-    height: 300px;
+    height: 446px;
     color: #f9e2e1;
     text-align: left; 
     clear: right;
@@ -230,22 +234,23 @@ hr{
 } 
 
 #circle-container{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
     border-style: solid;
     border-color: #c5376f;
-    border-width: 1px;
+    border-width: 10px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 #circle-cover-bg{
-    background: url('../images/linkuriboh.png');
+    background-image: url('../images/linkuriboh-center-image.png');
     height: 100%;
     border-radius: 50%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-footer{
-    text-align: center;
-}
+
 
