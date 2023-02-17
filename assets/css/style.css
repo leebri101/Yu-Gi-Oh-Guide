@@ -104,6 +104,7 @@ a:hover{
     position: fixed;
     left: 0;
     bottom: 0;
+    background-position: center;
 }
 
 
@@ -153,25 +154,81 @@ a:hover{
     width: 200;
     font-size: 25px;
     color: #f9e2e1;
-    text-align: left; 
-    clear: both;
+    text-align: right; 
+    clear: inline-end;
     position: relative;
     background-repeat: no-repeat;
+    object-fit: scale-down;
     float: none;
-    object-fit: fill;
 }
 
-
 #infitrack{
-    background-image: url('../images/tumblr_2a712d9e05f7a57ab96836b394a0945a_fdd22df6_640.jpg');
-    font-size: 25px;
-    width: 200px;
+    background-image: url('../images/INFINITRACK\ MEGACLOPS.png');
     height: 446px;
+    width: 200;
+    font-size: 25px;
     color: #f9e2e1;
-    text-align: left; 
-    clear: right;
+    text-align: right; 
+    clear: inline-end;
     position: relative;
     background-repeat: no-repeat;
+    object-fit: scale-down;
+    float: none;
+}
+
+#lost-world{
+    background-image: url('../images/Ultimate\ Conductor\ Tyranno.png');
+    height: 446px;
+    width: 200;
+    font-size: 25px;
+    color: #f9e2e1;
+    text-align: right; 
+    clear: inline-end;
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    float: none;
+}
+
+#tri-brigade{
+    background-image: url('../images/Tri-Brigade\ Shuraig\ the\ Ominous\ Omen.jpg');
+    height: 446px;
+    width: 200;
+    font-size: 25px;
+    color: #f9e2e1;
+    text-align: right; 
+    clear: inline-end;
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    float: none;
+}
+#eldlich{
+    background-image: url('../images/eldlich_the_golden_lord.jpg');
+    height: 446px;
+    width: 100;
+    font-size: 25px;
+    color: #f9e2e1;
+    text-align: right; 
+    clear: inline-end;
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    float: none;
+}
+
+#sky-strikers{
+    background-image: url('../images/Sky-Striker-Ace-Kagari.png');
+    height: 446px;
+    width: 200;
+    font-size: 25px;
+    color: #f9e2e1;
+    text-align: right; 
+    clear: inline-end;
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    float: none;
 }
 
 #home-page{
@@ -182,7 +239,6 @@ a:hover{
     padding-top: 40px;
     width: 33%;
     float: left;
-
 }
 
 #right-about{
@@ -241,7 +297,6 @@ hr{
     border-width: 10px;
     border-radius: 100%;
     margin: 0 auto;
-    
 }
 
 #circle-cover-bg{
@@ -252,6 +307,18 @@ hr{
     background-repeat: no-repeat;
     background-position: center center;
     object-fit: cover;
+
+    animation-name: kuriboh-zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes kuriboh-zoom {
+    from{
+        transform: scale(1);
+    }
 
+    to{
+        transform: scale(1.1);
+    }
+}
