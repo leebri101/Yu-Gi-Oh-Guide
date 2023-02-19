@@ -22,3 +22,18 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
 * As a user, I want to leave feeling as I know more about the Yu-Gi-Oh franchise.
 * As a user, I want to be able to play and connect with other people around the globe through different social media platforms.
 * As a user, I want to b able to play with different people through different means whether it is by a website, official franchise, games or in real life.
+
+### **How will this be achieved:**
+* The home page will allow the user a brief introduction as to what Yu-Gi-Oh is and a navigation point to different parts of the site.
+
+* The site will provbide multiple links and resources such as:
+    * The official website on Yu-Gi-Oh where it will show the latest updates and new decks that will be released by Konami.
+    * Links to an extenseive database/deckbuilder where the user can create tehir ideal deck.
+    * Embedded Youtube Videos showcasing tips and tricks.
+
+* The site will provide different options on where to be involved with the Yu-Gi-Oh Community.
+    * Through official Konami made apps where users can pit against each other virtually or in person.
+    * Fan-made websites where the user can play virtual decks.
+
+* The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll).
+
