@@ -35,5 +35,27 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
     * Through official Konami made apps where users can pit against each other virtually or in person.
     * Fan-made websites where the user can play virtual decks.
 
-* The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll).
+* The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll or any affiliated anime streaming sites).
 
+ <br>
+<h6></h6>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+Extra deck:
+All Extra deck cards such as, fusion, ritual, snychro, xyz and link monsters go here.
+They must all be faced -down during the game.
+You can look at the card during the game.
+Extra deck monsters can be summoned out by special means.
+Pendulum monster cards that are sent from field to graveyard are placed faced-up here.
+
+Extra Monster Zone:
+This is where you place summoned monsters to the Extra Monster zone field that are summoned. 
+by a different method from the extra deck such as link monsters, XYZ, Snychro and Fusion monsters. 
+Each player can only use 1 of these zones. 
+However a monster placed in this zone doesn't count to the 5 monster limit of the main monster zone.    

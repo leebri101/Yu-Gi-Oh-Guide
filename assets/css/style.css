@@ -8,7 +8,7 @@ body {
    } 
 
 footer{
-    text-align: center;
+    text-align: center; 
 }
 
  *{
@@ -17,16 +17,16 @@ footer{
     border: none;
  }
    
- h1{
+h1{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #bfa34d;
     position: absolute;
     text-align: center;
- } 
+} 
 
-h3, h5{
+h3{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -38,6 +38,29 @@ h4{
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #bfa34d;
+}
+
+h5{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    color: #c5376f;
+}
+
+h6{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #9dbbd1;
+}
+
+li{
+    font-size: 90%;
+    color: #94dfdc;
+}
+
+p{
+    font-size: 85%;
+    letter-spacing: 1px;
 }
 
 #logo {
@@ -53,19 +76,19 @@ h4{
     line-height: 50px;
 }
 
- #menu{
+#menu{
     text-decoration: none;
     font-size: 100%;
     letter-spacing: 2px;
     position: relative;
- }
- #menu li{
+}
+#menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
     position: relative;
     margin-right: 30px;
- }
+}
 #menu a{
     text-decoration: none;
     color: #bfa34d;
@@ -105,6 +128,8 @@ a:hover{
     left: 0;
     bottom: 0;
     background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -321,4 +346,13 @@ hr{
     to{
         transform: scale(1.1);
     }
+}
+
+#yugioh-play-mat{
+    background-image: url('../images/yugioh-play-mat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
