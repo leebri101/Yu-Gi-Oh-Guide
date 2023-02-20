@@ -22,7 +22,13 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #bfa34d;
-    position: absolute;
+} 
+
+h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bfa34d;
     text-align: center;
 } 
 
@@ -50,12 +56,15 @@ h6{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #9dbbd1;
+    color: #77c0f1;
+}
+.text-center{
+    text-align: center;
 }
 
 li{
     font-size: 90%;
-    color: #94dfdc;
+    color: #06ffe3;
 }
 
 p{
@@ -175,86 +184,16 @@ a:hover{
 
 #galaxy_eyes{
     background-image: url('../images/Number\ 107:\ Galaxy\ Eyes\ Tachyon\ Dragon.png');
-    height: 446px;
-    width: 200;
+    height: 500px;
+    width: 300px;
     font-size: 25px;
     color: #f9e2e1;
     text-align: right; 
-    clear: inline-end;
-    position: relative;
     background-repeat: no-repeat;
     object-fit: scale-down;
-    float: none;
+
 }
 
-#infitrack{
-    background-image: url('../images/INFINITRACK\ MEGACLOPS.png');
-    height: 446px;
-    width: 200;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    clear: inline-end;
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    float: none;
-}
-
-#lost-world{
-    background-image: url('../images/Ultimate\ Conductor\ Tyranno.png');
-    height: 446px;
-    width: 200;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    clear: inline-end;
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    float: none;
-}
-
-#tri-brigade{
-    background-image: url('../images/Tri-Brigade\ Shuraig\ the\ Ominous\ Omen.png');
-    height: 446px;
-    width: 200;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    clear: inline-end;
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    float: none;
-}
-#eldlich{
-    background-image: url('../images/Eldlich\ the\ Golden\ Lord.png');
-    height: 446px;
-    width: 100;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    clear: inline-end;
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: contain;
-    float: none;
-}
-
-#sky-strikers{
-    background-image: url('../images/Sky\ Striker\ Ace-\ Kagari.png');
-    height: 446px;
-    width: 200;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    clear: inline-end;
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: contain;
-    float: none;
-}
 
 #home-page{
     height:600px;
@@ -276,12 +215,17 @@ a:hover{
     width:33%;
     margin: 0 auto;
 }
+#center{
+    width:33%;
+    margin: 0 auto;
+}
 
 hr{
     border-top: 1px solid #bfa34d;
     width: 100%;
     margin: 5px 0;
 }
+
 
 .left-about-heading{
     width: 60%;
