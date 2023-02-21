@@ -8,7 +8,22 @@ body {
    } 
 
 footer{
-    text-align: center; 
+    height: 150px;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media > i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #c5376f;
 }
 
  *{
@@ -290,8 +305,8 @@ hr{
 }
 
 #circle-container{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     padding: 10px;
     border-style: solid;
     border-color: #c5376f;
@@ -325,7 +340,7 @@ hr{
 }
 
 #yugioh-play-mat{
-    background-image: url('../images/yugioh\ play\ mat.png');
+    background-image: url('../images/yugioh-play-mat.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -343,7 +358,7 @@ hr{
 }
 
 #square-cover-bg{
-    background-image: url('../images/yugioh\ play\ mat.png');
+    background-image: url('../images/yugioh-play-mat.png');
     height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
