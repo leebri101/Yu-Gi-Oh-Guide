@@ -22,6 +22,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #bfa34d;
+    position: relative;
 } 
 
 h2{
@@ -211,6 +212,12 @@ a:hover{
     float: right;
 }
 
+#right-side{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
 #center-about{
     width:33%;
     margin: 0 auto;
@@ -244,9 +251,11 @@ hr{
 
 .right-about-heading{
     text-align: right;
+    float: left;
 }
 
-.right-about-heading{
+.floatright{
+    float: right;
     text-align: right;
 }
 
@@ -256,6 +265,29 @@ hr{
     margin-top: 50px 0;
     font-size: 250%;
 } 
+
+#card-info{
+    text-align: center;
+    color: #bfa34d;
+    margin-top: 50px 0;
+    font-size: 250%;
+} 
+
+#card-container{
+    width: 600px;
+    height: 876px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#card-img{
+    background-image: url('../images/PhotonEmperor-PHHY-EN-C-1E.png');
+    width: 600px;
+    height: 876px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: contain;
+}
 
 #circle-container{
     width: 450px;
@@ -293,10 +325,28 @@ hr{
 }
 
 #yugioh-play-mat{
-    background-image: url('../images/yugioh-play-mat.png');
+    background-image: url('../images/yugioh\ play\ mat.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#square-container{
+    width: 2112px;
+    height: 992px;
+    object-fit: contain;
+    margin: auto 0;
+    place-items: center;
+    
+}
+
+#square-cover-bg{
+    background-image: url('../images/yugioh\ play\ mat.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: fill;
+    place-items: center;
 }
