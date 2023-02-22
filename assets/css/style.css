@@ -78,14 +78,17 @@ h6{
     text-align: center;
 }
 
+#small-box{
+    width: 600px;
+    height: 120px;
+    color: #c5376f;
+    border:5px solid #06ffe3;
+    overflow: hidden;
+}
+
 li{
     font-size: 90%;
     color: #06ffe3;
-}
-
-p{
-    font-size: 85%;
-    letter-spacing: 1px;
 }
 
 #logo {
@@ -121,8 +124,8 @@ p{
 }
 #menu a:hover{
     text-decoration: none;
-    color: #f9e2e1;
-    border-bottom: 1px solid #ffffff; 
+    color: #c5376f;
+    border-bottom: 5px solid #2e2b57; 
 }
 
 a:link{
@@ -157,7 +160,6 @@ a:hover{
     width: 100%;
 }
 
-
 #banner-outer{
     height: 450px;
     width: 100%; 
@@ -165,7 +167,6 @@ a:hover{
     position: relative;
 }  
    
-
 #cover-text, cover-text h4{
     color: #bfa34d;
     border: 5px solid #2e2b57;
@@ -185,7 +186,6 @@ a:hover{
     bottom: 30px;
     left: 200px;
     float: right;
-    
 }
 
 #banner{
@@ -207,7 +207,6 @@ a:hover{
     text-align: right; 
     background-repeat: no-repeat;
     object-fit: scale-down;
-
 }
 
 
@@ -237,8 +236,9 @@ a:hover{
     width:33%;
     margin: 0 auto;
 }
+
 #center{
-    width:33%;
+    width:26%;
     margin: 0 auto;
 }
 
@@ -248,7 +248,6 @@ hr{
     margin: 5px 0;
 }
 
-
 .left-about-heading{
     width: 60%;
     float: right;
@@ -256,6 +255,7 @@ hr{
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading{
     width: 60%;
     float: left;
