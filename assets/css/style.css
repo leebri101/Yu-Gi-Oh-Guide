@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Space+Mono&display=swap" rel="stylesheet');
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -61,10 +62,10 @@ h3{
 }
 
 h4{
-    font-family: Oswald, sans-serif;
+    font-family: Space Mono, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #bfa34d;
+    color: #efdb9f;
     font-size: 75%;
 }
 
@@ -84,14 +85,66 @@ h6{
     text-align: center;
 }
 
-#small-box{
-    width: 600px;
-    height: 120px;
-    color: #c5376f;
-    border:5px solid #06ffe3;
-    overflow: hidden;
+.box{
+    position: relative;
+    max-width: 550px;
+    height:auto;
+    border: 5px solid #06ffe3;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+.box:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #c5376f;
+    border-bottom: 5px solid #c5376f;
+    border-left: 5px solid #c5376f;
+    border-right: 5px solid #c5376f;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top: -15px;
+    background: #504c80;
+}
+
+.container{
+    position: relative;
+    max-width: 550px;
+    height:auto;
+    border: 3px solid #1990df;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 3px solid #06ffe3;
+    border-bottom: 3px solid #06ffe3;
+    border-left: 3px solid #06ffe3;
+    border-right: 3px solid #06ffe3;
+    top: 100%;
+    left: 50%;
+    margin-left: -19px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top: -15px;
+    background: #504c80;
+}
+
+#small-box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    overflow: hidden;
+}
 li{
     font-size: 90%;
     color: #06ffe3;
@@ -204,18 +257,6 @@ a:hover{
     background-position: center;
 }
 
-#galaxy_eyes{
-    background-image: url('../images/Number\ 107:\ Galaxy\ Eyes\ Tachyon\ Dragon.png');
-    height: 500px;
-    width: 300px;
-    font-size: 25px;
-    color: #f9e2e1;
-    text-align: right; 
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-}
-
-
 #home-page{
     height:600px;
 }
@@ -283,7 +324,7 @@ hr{
 #welcome{
     text-align: center;
     color: #bfa34d;
-    margin-top: 50px 0;
+    margin-top: 50px;
     font-size: 250%;
 } 
 
@@ -381,4 +422,10 @@ hr{
 
 #photos > img{
     width: 100%;
+}
+ 
+#imgsize{
+    width: 40%;
+    margin: 0 auto;
+    place-items: center;
 }
