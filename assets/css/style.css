@@ -429,3 +429,137 @@ hr{
     margin: 0 auto;
     place-items: center;
 }
+
+#monster-effect{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#monster-effect td, #monster-effect th {
+    border: 5px solid #ff8b53;
+    padding: 8px;
+}
+
+#monster-effect th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff8b53;
+    color: white;
+}
+
+#fusion{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#fusion td, #fusion th {
+    border: 5px solid #a086b7;
+    padding: 8px;
+}
+
+#fusion th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a086b7;
+    color: white;
+}
+
+#link{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#link td, #link th {
+    border: 5px solid #006ead ;
+    padding: 8px;
+}
+
+#link th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #006ead ;
+    color: white;
+}
+
+#synchro{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#synchro td, #synchro th {
+    border: 5px solid #cccccc ;
+    padding: 8px;
+}
+
+#synchro th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #cccccc;
+    color: white;
+}
+
+#xyz{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#xyz td, #xyz th {
+    border: 5px solid #000 ;
+    padding: 8px;
+}
+
+#xyz th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+
+#spell{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#spell td, #spell th {
+    border: 5px solid #1d9e74 ;
+    padding: 8px;
+}
+
+#spell th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1d9e74;
+    color: white;
+}
+
+
+#trap{
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+
+#trap td, #trap th {
+    border: 5px solid #bc5a84;
+    padding: 8px;
+}
+
+#trap th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bc5a84;
+    color: white;
+}

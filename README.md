@@ -37,68 +37,9 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
 
 * The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll or any affiliated anime streaming sites).
 
-<!--
-<h2 class="text-center">Top 6 Meta Decks to Use</h2>
-        <div id="">
-            <h3>Galaxy eyes Tachyon deck</h3>
-            <h4>[<i>Dragon/XYZ/Effect/LIGHT</i>]</h4>
-            <h4><i>ATK/3,000 DEF/2,500</i></h4>
-            <h5>Number 107: Galaxy-Eyes Tachyon Dragon</h5>
-            <p>This deck is derived from the famous Yu-Gi-Oh Zexel anime series</p> 
-            <p>Which introduced a new way of playing using XYZ cards to summon mosnters used by the later antangonist Mizar.</P>
-        </div> 
-        <br>
-        <div id="infitrack">
-            <h3>INFINITRACK:- HIGH-RANK XYZ SUMMONING DECK</h3>
-            <h4>[<i>Machine/Link/Effect/EARTH</i>]</h4>
-            <h4><i>ATK/4,000 LINK-3</i></h4>
-            <h5>INFINITRACK FORTRESS MEGACLOPS</h5>
-            <p>An easy XYZ summoning deck which can manipulate lower level monsters to XYZ summon high ranking monsters</p>
-            <p>Even link monsters(added bonus for how inexpensive it is)</p>
-        </div>
-        <br>
-        <div id="lost-world">
-            <h3>Lost-World Dino deck</h3>
-            <h4>[<i>Dinosaur/Effect/LIGHT</i>]</h4>
-            <h4><i>ATK/3,500 DEF/3,200</i></h4>
-            <h5>Ultimate Conductor Tyranno</h5>
-            <p>A dinosaur deck that is fun and easy to play, with the Lost World Spell field which is used to summon tokens.</p>
-            <p>An offensive and defensive deck to protect you dino monsters from being targeted or destroyed from battle or by card effects.</p>
-        </div>
-        <br>
-        <div id="tri-brigade">
-            <h3>Tri-Brigade Zoodiac</h3>
-            <h4>[<i>Winged Beast/LINK/Effect/DARK</i>]</h4>
-            <h4><i>ATK/3,000 LINK-4</i></h4>
-            <h5>Tri-Brigade Shuraig the Ominous Omen</h5>
-            <p>Tri-Brigade has been a firm deck, strong ,competitive since its release.</p>
-            <p>The versatility it provides deck builders, as well as the sheer strength of its core engine, makes Tri-Brigade a firm favourite deck for all.</p>
-        </div>
-        <br>
-        <div id="eldlich">
-            <h3>Eldlich</h3>
-            <h4>[<i>Zombie/Effect/LIGHT</i>]</h4>
-            <h4><i>ATK/2,500 DEF/2,800</i></h4>
-            <h5>Eldlich the Golden Lord</h5>
-            <p>Eldlich is the best decxk for controlling and dominating the entire game.</p>
-            <p>With constant restrictions to your opponent's actions and slow chipping damage instead of the flashy combos.</p>
-        </div>
-        <br>
-        <div id="sky-strikers">
-            <h3>Sky Strikers</h3>
-            <h4>[<i>Machines/LINK/Effect/FIRE</i>]</h4>
-            <h4><i>ATK/1,500 LINK-1</i></h4>
-            <h5>Sky Striker Kagari</h5>
-            <p>A fan favourite by all, Sky Striker requires correct judgement and carefuk management of your deck while controlling the game.</p>
-            <p>With the recent release of Magnificent Mavens it gave it a much needed use for new cards.</p>
-        </div>
-    
-    <br>
-    
-    <div id="cover-text">
-        <h4>
-        <a href="https://ygoprodeck.com/deck-search/?&offset=0" target="_blank">
-            For More Deck builds click here...</a>
-        </h4>
-    </div>
--->
+                <tr>
+                    <td>Spell</td>
+                    <td></td>
+                    <td>FORBIDDEN</td>
+                    <td></td>
+                 </tr>
