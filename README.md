@@ -36,10 +36,3 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
     * Fan-made websites where the user can play virtual decks.
 
 * The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll or any affiliated anime streaming sites).
-
-                <tr>
-                    <td>Spell</td>
-                    <td></td>
-                    <td>FORBIDDEN</td>
-                    <td></td>
-                 </tr>
