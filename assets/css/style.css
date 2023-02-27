@@ -33,7 +33,7 @@ p{
 
  *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
     border: none;
  }
    
@@ -93,6 +93,7 @@ h6{
     margin: 50px auto;
     padding: 20px;
     box-sizing: border-box;
+
 }
 
 .box:after{
@@ -117,8 +118,8 @@ h6{
     max-width: 550px;
     height:auto;
     border: 3px solid #1990df;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -227,27 +228,6 @@ a:hover{
     position: relative;
 }  
    
-#cover-text, cover-text h4{
-    color: #bfa34d;
-    border: 5px solid #2e2b57;
-}
-
-#cover-text{
-    font-size: 100%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    width: 200px;
-    height: 100px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    bottom: 30px;
-    left: 200px;
-    float: right;
-}
-
 #banner{
     background-image: url('../images/yugioh-wallpaper.jpg'); 
     height: 450px;
@@ -325,7 +305,7 @@ hr{
 #welcome{
     text-align: center;
     color: #bfa34d;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 250%;
 } 
 
@@ -348,7 +328,6 @@ hr{
     width: 600px;
     height: 875px;
     background-repeat: no-repeat;
-    background-position: center center;
     object-fit: contain;
 }
 
@@ -397,22 +376,21 @@ hr{
 }
 
 #square-container{
-    width: 2112px;
-    height: 992px;
-    object-fit: contain;
-    margin: auto 0;
-    place-items: center;
+    background-image: url('../images/Playing-Mat2.png');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 708px;
+    object-fit: cover;
+    margin: 0 auto;
     
 }
 
-#square-cover-bg{
-    background-image: url('../images/yugioh-play-mat.png');
+/* #square-cover-bg{ 
+    background-image: url('../images/Playing-Mat2.png');
     height: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
     object-fit: fill;
-    place-items: center;
-}
+} */
 
 #photos{
     clear: both;
@@ -593,6 +571,13 @@ hr{
     hr{
         display: none;
     }
+
+    #square-container > div {
+        width: 100%;
+        clear: both;
+        height: 150px
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:950px) {
@@ -608,5 +593,29 @@ hr{
         width:90%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+    
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading h3, .right-about-heading h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading h4, .right-about-heading h4{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px;
     }
 }
