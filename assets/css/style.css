@@ -210,11 +210,12 @@ a:hover{
 
 
 #card{
-    background-image: url('../images/TCG_logo_500x500.png');
+    background-image: url('../images/yugioh-logo.png');
     position: fixed;
     left: 0;
     bottom: 0;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
@@ -248,7 +249,7 @@ a:hover{
 }
 
 #banner{
-    background-image: url('../images/wallpaper2you_17739.jpg'); 
+    background-image: url('../images/yugioh-wallpaper.jpg'); 
     height: 450px;
     width: 100%;
     position: absolute;
@@ -337,15 +338,15 @@ hr{
 
 #card-container{
     width: 600px;
-    height: 876px;
+    height: 875px;
     padding: 30px;
     margin: 0 auto;
 }
 
 #card-img{
-    background-image: url('../images/PhotonEmperor-PHHY-EN-C-1E.png');
+    background-image: url('../images/galaxy_eyes_prime_photon_dragon.jpg');
     width: 600px;
-    height: 876px;
+    height: 875px;
     background-repeat: no-repeat;
     background-position: center center;
     object-fit: contain;
@@ -363,7 +364,7 @@ hr{
 }
 
 #circle-cover-bg{
-    background-image: url('../images/linkuriboh_extended.jpg');
+    background-image: url('../images/linkuriboh.jpg');
     height: 100%;
     border-radius: 50%;
     object-fit: fill;
@@ -564,7 +565,7 @@ hr{
     color: white;
 }
 
-@media screen and (max-width:1200px {
+@media screen and (max-width:1200px) {
     #home-page {
         width: 65%;
         height: 1200px;
@@ -591,5 +592,21 @@ hr{
     
     hr{
         display: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #menu{
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #home-page{
+        width:90%;
+        height: 1200px;
+        margin: 0 auto;
     }
 }
