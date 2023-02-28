@@ -127,10 +127,10 @@ h6{
     position: absolute;
     width: 20px;
     height: 20px;
-    border-top: 3px solid #06ffe3;
-    border-bottom: 3px solid #06ffe3;
-    border-left: 3px solid #06ffe3;
-    border-right: 3px solid #06ffe3;
+    border-top: 2px solid #06ffe3;
+    border-bottom: 2px solid #06ffe3;
+    border-left: 2px solid #06ffe3;
+    border-right: 2px solid #06ffe3;
     top: 100%;
     left: 50%;
     margin-left: -19px;
@@ -199,13 +199,13 @@ li{
     margin-right: 30px;
     position: relative;
     margin-right: 30px;
-    font-size: 85%;
+    font-size: 90%;
 }
 #menu a{
     text-decoration: none;
     color: #bfa34d;
     position: relative;
-    font-size: 85%;
+    font-size: 90%;
 }
 #menu a:hover{
     text-decoration: none;
@@ -397,7 +397,7 @@ hr{
     height: 708px;
     padding: 100px;
     border-style: solid;
-    border-color: #c5376f;
+    border-color: #504c80;
     border-collapse: collapse;
     margin: 0 auto;
     object-fit: fill;
@@ -446,17 +446,20 @@ hr{
     text-align: left;
     background-color: #ff8b53;
     color: white;
+    font-size: 85%;
 }
 
 #fusion{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #fusion td, #fusion th {
     border: 5px solid #a086b7;
     padding: 8px;
+    font-size: 85%;
 }
 
 #fusion th {
@@ -465,17 +468,20 @@ hr{
     text-align: left;
     background-color: #a086b7;
     color: white;
+    font-size: 85%;
 }
 
 #link{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #link td, #link th {
     border: 5px solid #006ead ;
     padding: 8px;
+    font-size: 85%;
 }
 
 #link th {
@@ -484,17 +490,20 @@ hr{
     text-align: left;
     background-color: #006ead ;
     color: white;
+    font-size: 85%;
 }
 
 #synchro{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #synchro td, #synchro th {
     border: 5px solid #cccccc ;
     padding: 8px;
+    font-size: 85%;
 }
 
 #synchro th {
@@ -503,17 +512,20 @@ hr{
     text-align: left;
     background-color: #cccccc;
     color: white;
+    font-size: 85%;
 }
 
 #xyz{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #xyz td, #xyz th {
     border: 5px solid #000 ;
     padding: 8px;
+    font-size: 85%;
 }
 
 #xyz th {
@@ -522,17 +534,20 @@ hr{
     text-align: left;
     background-color: #000;
     color: white;
+    font-size: 85%;
 }
 
 #spell{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #spell td, #spell th {
     border: 5px solid #1d9e74 ;
     padding: 8px;
+    font-size: 85%;
 }
 
 #spell th {
@@ -541,6 +556,7 @@ hr{
     text-align: left;
     background-color: #1d9e74;
     color: white;
+    font-size: 85%;
 }
 
 
@@ -548,11 +564,13 @@ hr{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #trap td, #trap th {
     border: 5px solid #bc5a84;
     padding: 8px;
+    font-size: 85%;
 }
 
 #trap th {
@@ -561,6 +579,7 @@ hr{
     text-align: left;
     background-color: #bc5a84;
     color: white;
+    font-size: 85%;
 }
 
 @media screen and (max-width:1200px) {
@@ -640,7 +659,7 @@ hr{
     }
 
     #photos{
-        column-count: 3;
+        column-count: 1;
     }
     
 }
