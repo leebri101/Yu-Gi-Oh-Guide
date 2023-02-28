@@ -266,7 +266,7 @@ a:hover{
 }
 
 #center{
-    width:26%;
+    width:100%;
     margin: 0 auto;
 }
 
@@ -366,39 +366,20 @@ hr{
     }
 }
 
-#yugioh-play-mat{
-    background-image: url('../images/yugioh-play-mat.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#yugioh-play-mat div{
-    color:#c5376f;
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid #06ffe3;
-    box-sizing: border-box;
-    border-collapse: collapse;
-}
-
 #square-container{
-    background-image: url('../images/playing-Mat2.png');
-    background-repeat: no-repeat;
-    width: 100%;
+    width: 1200px;
     height: 708px;
-    object-fit: cover;
+    padding: 100px;
+    border-style: solid;
+    border-color: #c5376f;
+    border-width: 5px;
+    border-collapse: collapse;
     margin: 0 auto;
     
 }
 
 #square-cover-bg{ 
-    background-image: url('../images/playing-Mat2.png');
+    background-image: url('../images/play-mat.png');
     height: 100%;
     background-repeat: no-repeat;
     object-fit: fill;
