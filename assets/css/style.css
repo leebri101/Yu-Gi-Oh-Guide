@@ -125,8 +125,8 @@ h6{
 
 .container:after{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-top: 3px solid #06ffe3;
     border-bottom: 3px solid #06ffe3;
     border-left: 3px solid #06ffe3;
@@ -136,16 +136,37 @@ h6{
     margin-left: -19px;
     content:'';
     transform: rotate(45deg);
-    margin-top: -15px;
+    margin-top: -10px;
     background: #504c80;
 }
 
-#small-box{
-    width: 100px;
-    height: 100px;
-    background: red;
-    overflow: hidden;
+.text-box{
+    position: relative;
+    max-width: 550px;
+    height:auto;
+    border: 3px solid #1990df;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
+.text-box:after{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #06ffe3;
+    border-bottom: 2px solid #06ffe3;
+    border-left: 2px solid #06ffe3;
+    border-right: 2px solid #06ffe3;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top: -6px;
+    background: #504c80;
+}
+
 li{
     font-size: 90%;
     color: #06ffe3;
@@ -157,6 +178,7 @@ li{
     font-size: 200%;
     line-height: 50px;
     margin-left: 30px;
+    font-size: 45px;
  }
 
 #menu, logo{
@@ -169,6 +191,7 @@ li{
     font-size: 100%;
     letter-spacing: 2px;
     position: relative;
+    font-size: 85%;
 }
 #menu li{
     float: right;
@@ -176,11 +199,13 @@ li{
     margin-right: 30px;
     position: relative;
     margin-right: 30px;
+    font-size: 85%;
 }
 #menu a{
     text-decoration: none;
     color: #bfa34d;
     position: relative;
+    font-size: 85%;
 }
 #menu a:hover{
     text-decoration: none;
@@ -206,7 +231,7 @@ a:hover{
 }
 
 .active{
-    border-bottom: 5px solid #2e2b57;
+    border-bottom: 4px solid #2e2b57;
 }
 
 
@@ -326,9 +351,10 @@ hr{
 #card-img{
     background-image: url('../images/galaxy_eyes_prime_photon_dragon.jpg');
     width: 600px;
-    height: 875px;
+    height: 800px;
     background-repeat: no-repeat;
     object-fit: contain;
+    place-items: center;
 }
 
 #circle-container{
@@ -372,10 +398,9 @@ hr{
     padding: 100px;
     border-style: solid;
     border-color: #c5376f;
-    border-width: 5px;
     border-collapse: collapse;
     margin: 0 auto;
-    
+    object-fit: fill;
 }
 
 #square-cover-bg{ 
@@ -406,11 +431,13 @@ hr{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
+    font-size: 85%;
 }
 
 #monster-effect td, #monster-effect th {
     border: 5px solid #ff8b53;
     padding: 8px;
+    font-size: 85%;
 }
 
 #monster-effect th {
@@ -615,4 +642,5 @@ hr{
     #photos{
         column-count: 3;
     }
+    
 }
