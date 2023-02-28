@@ -113,6 +113,34 @@ h6{
     background: #504c80;
 }
 
+.boxed-border{
+    position: relative;
+    max-width: 650px;
+    height:auto;
+    border: 5px solid #06ffe3;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.boxed-border:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #c5376f;
+    border-bottom: 5px solid #c5376f;
+    border-left: 5px solid #c5376f;
+    border-right: 5px solid #c5376f;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top: -15px;
+    background: #504c80;
+}
+
 .container{
     position: relative;
     max-width: 550px;
