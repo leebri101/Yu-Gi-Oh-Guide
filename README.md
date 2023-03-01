@@ -36,3 +36,26 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
     * Fan-made websites where the user can play virtual decks.
 
 * The site will provide users a link on where to watch the series (providing they have an account linked via Crunchyroll or any affiliated anime streaming sites).
+
+### **WireFrames:**
+* To prevent any digression to the from the scope objectives, I have made wireframes for the project. Both the mobile and desktop version will have links to their respected versions of all six pages of the Yugioh guide:
+
+    * Mobile Wireframes:
+    * 
+    * 
+    * 
+    * 
+    * 
+    * 
+
+    * Desktop Wireframes:
+    * 
+    * 
+    * 
+    * 
+    * 
+    * 
+
+
+### **Color Scheme:**
+ * When creating the intial overall design of the site I have decided to use this colour scheme to go with the overall Yugioh to make it look more mysterious and within the color scheme of the card.
