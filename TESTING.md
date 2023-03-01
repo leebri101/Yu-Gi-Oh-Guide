@@ -1,24 +1,69 @@
 # Testing Page of Contents
-## **During Development Testing**
+* [**Development Testing Phase**](#development-testing-phase)
+    * [**Manual Testing Phase**](#manual-testing-phase)
+    * [**Bugs and Fixes**](#bugs-and-fixes)
+* [**Post Development Testing-Phase**](#post-development-testing-phase)
+  * [**Validator Testing**](#validator-testing)
+    * [**HTML**](#html---httpsvalidatorw3orgnu)
+    * [**CSS**](#css---httpsjigsaww3orgcss-validator)
+  * [**Lighthouse Scoring**](#lighthouse-scoring)
+
+## **Development Testing Phase**
 In the development phase, I was manually testing the site in two ways:-
     
 1. Publishing the page via GitHub and sharing it with friends and family to test within a set controlled environment, and receive feedback on major and small changes that needed to be rectified.
 
 1. Self testing to ensure that "I" as the creator know what to expect of the site.
 
-### **Manual Testing**
+### **Manual Testing Phase**
 * During the testing phase , I used three different browsers to ensure consistency & cross-platform connectivity. The browsers used in the tests are:
 
   1. Chrome
-  2. Firefox  
+  2. Firefox   
   3. Edge
 
 * I also used devtools to experiment the different screen sizes and devices from 450px up to 4000px in width. 
 * I have also asked a small group of people to test the site using Apple & Android products using safari. The users reported back with no issues with overall content but with minor styling amendmants or styling suggestions which will be implimented in the near future with further testing.
 
-## **Validator Testing**
+### **Bugs and Fixes**
 
-### **Validators**
+* Below is the list of bugs and solutions used during the development & testing phase of the project.
+
+1. **Outcome** - Correct sizing of playing mats to fit to all versions of the pages on different devices and removal of disorientated images.
+    * **Issue Found:**
+        * Playing mats on both the tutorial not resizing itself due to the image itself.
+    * **Solution:**
+        * Found a smaller version of the mat as none of the sources upon the development phase actually had an appropriate sized one which can be scaled down even upon adjusting the size.
+
+1. **Outcome** - Adjusted all the cards to 400px width and 300px height to fit into one page and not stretch out.
+    * **Issue Found:**
+        * Yugioh card sizing issues on mobile pages
+    * **Solution:**
+        * Scaling down the size of the cards to a width of at least 400px and a height of 300px helped keep all pages consistently neat and user friendly.
+
+1. **Outcome** - Consistent banner outlook for all pages on mobile 
+    * **Issue Found:**
+        * Mobile link has issues with banner and is not shurnk to mobile phone sizing.
+    * **Solution:**
+        * Adjusted the codinng within CSS to adapt within a mobiile setting.
+
+1. **Outcome** - Cleaner overall appearance with either little gaps or no gaps on pages
+    * **Issue Found:**
+        * When zooming out on the mobile site you see the zoomed out version in mobile and not a fully static version with its dimensions in place.
+    * **Solution:**
+        * Removal of unwanted images or text which affects the overall appearance of the mobile version
+   
+
+1. **Outcome** - Cleaner look of the banlist with no gaps 
+    * **Issue Found:**
+        * Bordering issues on the banlist as it caused a large gap in the mobile site. 
+    * **Solution:**
+        * Fixed bordering issue on banlist by removing remarks as not many cards had any remarks.
+
+
+
+## **Post Development Testing Phase**
+### **Validator Testing**
 
 #### **HTML** - https://validator.w3.org/nu/
 
@@ -75,6 +120,7 @@ I have only included a screenshot for desktop as all pages were the same score, 
 * Overall a good set of ratings as most of the layout was configured to a more mobile friendly look, but this will need to be consistent overall for any next projects that I create. 
 
 4. ***decks.html:***
+
 ![Mobile Lighthouse Score for deck.html](doc/screenshots/mobile-decks.webp)
 
 * A simple linear gallery at which it links in with an extrenal site from card to deck which as most of the cards are consistently within the same height and width.
@@ -91,3 +137,6 @@ I have only included a screenshot for desktop as all pages were the same score, 
 ![Mobile Lighthouse Score for banlist.html](doc/screenshots/mobile-banlist.webp) 
 
 * As this last page was to be a simple table of theme of each of the cards listed in the 2023 banlist it had two amber ratings of both performance and accessibility. Performance due to one of the most common flagged issue was "Serve static assets with an efficient cache policy" at which even compressing the imnage it still flagged up. As a lesson to learn next time to either use a WEBP or AVIF format to reduce loading times and space of images.
+
+
+[Go back to README.md](README.md)
