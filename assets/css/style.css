@@ -263,17 +263,6 @@ a:hover{
 }
 
 
-#card{
-    background-image: url('../images/yugioh-logo.png');
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-
 #banner-outer{
     height: 450px;
     width: 100%; 
