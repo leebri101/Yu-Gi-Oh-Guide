@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 body {
     font-family: Lato, sans-serif;
@@ -62,7 +62,7 @@ h3{
 }
 
 h4{
-    font-family: Space Mono, sans-serif;
+    font-family: "Space Mono", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #efdb9f;
@@ -365,7 +365,7 @@ hr{
 #card-info{
     text-align: center;
     color: #bfa34d;
-    margin-top: 50px 0;
+    margin-top: 50px;
     font-size: 250%;
 } 
 
@@ -642,7 +642,7 @@ hr{
     #square-container > div {
         width: 100%;
         clear: both;
-        height: 150px
+        height: 150px;
         padding: 0;
     }
 }
