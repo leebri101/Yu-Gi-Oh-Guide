@@ -231,7 +231,7 @@ li{
 }
 #menu a{
     text-decoration: none;
-    color: #bfa34d;
+    color: #ddc682;
     position: relative;
     font-size: 90%;
 }
@@ -259,7 +259,7 @@ a:hover{
 }
 
 .active{
-    border-bottom: 4px solid #2e2b57;
+    border-bottom: 4px solid #6861c2;
 }
 
 
@@ -421,8 +421,8 @@ hr{
 }
 
 #square-container{
-    width: 1200px;
-    height: 708px;
+    width: 413px;
+    height: 367px;
     padding: 100px;
     border-style: solid;
     border-color: #504c80;
@@ -432,7 +432,7 @@ hr{
 }
 
 #square-cover-bg{ 
-    background-image: url('../images/play-mat.png');
+    background-image: url('../images/playing-mat.png');
     height: 100%;
     background-repeat: no-repeat;
     object-fit: fill;
