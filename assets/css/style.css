@@ -67,7 +67,7 @@ h4{
     font-family: "Space Mono", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #efdb9f;
+    color: #ddc682;
     font-size: 75%;
 }
 
@@ -147,7 +147,7 @@ h6{
     position: relative;
     max-width: 550px;
     height:auto;
-    border: 3px solid #1990df;
+    border: 3px solid #006ead;
     margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
@@ -174,7 +174,7 @@ h6{
     position: relative;
     max-width: 550px;
     height:auto;
-    border: 3px solid #1990df;
+    border: 3px solid #006ead;
     margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
