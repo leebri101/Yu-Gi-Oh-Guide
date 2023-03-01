@@ -30,6 +30,7 @@ In the development phase, I was manually testing the site in two ways:-
 ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
 
 ### **Lighthouse Scoring**
+
 ### **Testing Conditions:**
 * I have git sran the tests for mobile and desktop. 
 * I have asked a small group of people to run lighthouse tests from their own devices. 
@@ -39,19 +40,48 @@ I have only included a screenshot for desktop as all pages were the same score, 
 
 ![Desktop Lighthouse Score](doc/screenshots/desktop-lighthouse-score.webp) 
 
-**Required to get attain the score:**
+**Maintaining the score:**
+1. All of the html files were at above 97% or more within the desktop version with only small minor coding issues which dropped the performance to around 87% on the banlist due to it being a list, but overall the desktop version is fully fucntional and working.
 
-1. A majority of the images used in the project are either JPEGs or PNGs which meant that it affected the performance on mobile but not on desktop, compressing the images help increase the perfomance score.
+#### **Mobile Version:**
+* Due the significant reduction on screen resolution the overall lighthouse ratings will drop due to the overall screen size however most of the results where above 90% whereas the perfomance was most at a high 81%.
 
-<!--
-Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. 
-1. The initial SEO score was 90 due to having no Meta description tag in the page head. Once I added this, the score became 100.
+* A majority of the images used in the project are either JPEGs or PNGs which meant that it affected the performance on mobile but not on desktop, compressing the images help increase the perfomance score.
 
-1. The best practice score was first 93 and impacted by three factors:
-    * Aspect ratio of the images on the teachings page. I fixed this by resizing the images proportionately with the calculator found on https://andrew.hedges.name/experiments/aspect_ratio/.
+* Due to the large size of the images it hindered the performance and mostly dropped to around 71%, but compressing all of the images on https://tinypng.com/ had helped raised the performce to within +80% on the mobile version.
 
-    * There were some anchor tags on the community page and the form feedback page where the contained text was "here". I changed these anchor texts to a more descriptive text indicating where the links would lead the user.
+* The mobile tests of intial SEO was at around 75-85% from not adding the Meta description. Upon adding, it increased the score between both 97 or 100.
 
-    * The graphic used as an anchor to download the book Modern Buddhism on index.html was the correct size with no need to specify width and height. However, the best practice scored suggested it should have a height and width specified. I used an extension called pesticide to get the dimension of the image and added these to the CSS file under an ID explicitly created for this element (#modbudd-ebook). Once I added the dimensions best practice score became 100.
 
-1. The performance was 93 on the form feedback page but fluctuating around 93 each time I ran the test. I used https://tinypng.com/ to compress the hero image on this page, which took the score to a minimum of 95 or higher each time I ran the lighthouse test. -->
+  
+1. ***index.html:***
+
+![Mobile Lighthouse Score for index.html](doc/screenshots/mobile-index.webp)
+
+ * The orignal score for the performance of the page was 71%. But with compressions of the images on the page and editiing of the logo and overall text it only managed tp raise it to 75%. as a lesson for next time is to adjust the headings to an appropriate sizing for the user and for various different devices.
+
+
+ 2. ***essentials.html:***
+
+![Mobile Lighthouse Score for essentials.html](doc/screenshots/mobile-essentials.webp)
+
+ * With the changes of the headiings and fonts it was tsill difficult to raise the performance of the page from 75 to at least +90% but, but for a future reference for the next project it will be more spacious and readable via the mobile version by adding shapes or reducing the wording.
+
+
+ 3. ***cardinfo.html:***
+
+![Mobile Lighthouse Score for cardinfo.html](doc/screenshots/mobile-cardinfo.webp)
+
+* Overall a good set of ratings as most of the layout was configured to a more mobile friendly look, but this will need to be consistent overall for any next projects that i create. 
+
+4. ***decks.html:***
+![Mobile Lighthouse Score for deck.html](doc/screenshots/mobile-decks.webp)
+
+* A simple linear gallery at which it links in with an extrenal site from card to deck which as most of the cards are consistently within the same height and width
+
+5. ***play.html:***
+![Mobile Lighthouse Score for play.html](doc/screenshots/mobile-play.webp)
+
+
+6. ***banlist.html:***
+![Mobile Lighthouse Score for banlist.html](doc/screenshots/mobile-banlist.webp) 
