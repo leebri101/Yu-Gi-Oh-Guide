@@ -43,6 +43,7 @@ h1{
     letter-spacing: 2px;
     color: #bfa34d;
     position: relative;
+    
 } 
 
 h2{
@@ -51,6 +52,7 @@ h2{
     letter-spacing: 2px;
     color: #bfa34d;
     text-align: center;
+    font-size: 30px;
 } 
 
 h3{
@@ -206,7 +208,7 @@ li{
     font-size: 200%;
     line-height: 50px;
     margin-left: 30px;
-    font-size: 35px;
+    font-size: 30px;
  }
 
 #menu, logo{
@@ -216,7 +218,6 @@ li{
 
 #menu{
     text-decoration: none;
-    font-size: 100%;
     letter-spacing: 2px;
     position: relative;
     font-size: 85%;
@@ -362,12 +363,6 @@ hr{
     font-size: 250%;
 } 
 
-#card-info{
-    text-align: center;
-    color: #bfa34d;
-    margin-top: 50px;
-    font-size: 250%;
-} 
 
 #card-container{
     width: 600px;
@@ -459,13 +454,13 @@ hr{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #monster-effect td, #monster-effect th {
     border: 5px solid #ff8b53;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #monster-effect th {
@@ -474,20 +469,20 @@ hr{
     text-align: left;
     background-color: #ff8b53;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #fusion{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #fusion td, #fusion th {
     border: 5px solid #a086b7;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #fusion th {
@@ -496,20 +491,20 @@ hr{
     text-align: left;
     background-color: #a086b7;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #link{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #link td, #link th {
     border: 5px solid #006ead ;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #link th {
@@ -518,20 +513,20 @@ hr{
     text-align: left;
     background-color: #006ead ;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #synchro{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #synchro td, #synchro th {
     border: 5px solid #cccccc ;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #synchro th {
@@ -540,20 +535,20 @@ hr{
     text-align: left;
     background-color: #cccccc;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #xyz{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #xyz td, #xyz th {
     border: 5px solid #000 ;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #xyz th {
@@ -562,20 +557,20 @@ hr{
     text-align: left;
     background-color: #000;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #spell{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #spell td, #spell th {
     border: 5px solid #1d9e74 ;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #spell th {
@@ -584,7 +579,7 @@ hr{
     text-align: left;
     background-color: #1d9e74;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 
@@ -592,13 +587,13 @@ hr{
     font-family: Lato, sans-serif;
     border-collapse: collapse;
     width:100%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #trap td, #trap th {
     border: 5px solid #bc5a84;
     padding: 8px;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 #trap th {
@@ -607,7 +602,7 @@ hr{
     text-align: left;
     background-color: #bc5a84;
     color: white;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 @media screen and (max-width:1200px) {
@@ -691,11 +686,18 @@ hr{
     }
     
     #banner{
-        height: 250px;
+        height: 150px;
         width: 100%;
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
+
+    #banner-outer{
+        height: 150px;
+        width: 100%; 
+        overflow: hidden;
+        position: relative;
+    }  
 }
