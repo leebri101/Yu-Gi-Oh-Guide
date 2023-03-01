@@ -30,14 +30,14 @@ In the development phase, I was manually testing the site in two ways:-
 ![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
 
 ### **Lighthouse Scoring**
-### **Testing Conditions:##
-* I ran the tests for mobile and desktop. 
+### **Testing Conditions:**
+* I have ran the tests for mobile and desktop. 
 * I have asked a small group of people to run lighthouse tests from their own devices. 
 
-#### ***Desktop Version:***
-I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
+#### **Desktop Version:**
+I have only included a screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
 
-![Desktop Lighthouse Score](/workspace/Yu-Gi-Oh-guide-/doc/screenshots/desktop-lighthouse-score.png) 
+![Desktop Lighthouse Score](doc/screenshots/desktop-lighthouse-score.png) 
 
 **Required to get attain the score:**
 
