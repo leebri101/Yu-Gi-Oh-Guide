@@ -72,7 +72,7 @@ h4{
 h5{
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
-    color: #c5376f;
+    color: #ffffff;
 }
 
 h6{
@@ -690,4 +690,12 @@ hr{
         column-count: 1;
     }
     
+    #banner{
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
