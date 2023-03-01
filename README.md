@@ -58,4 +58,6 @@ Kazuki Takahashi born on October 4th 1961 was a well known manga, author illustr
 
 
 ### **Color Scheme:**
- * When creating the intial overall design of the site I have decided to use this colour scheme to go with the overall Yugioh to make it look more mysterious and within the color scheme of the card.
+ * When creating the intial overall design of the site I have decided to use this colour scheme to go with the overall Yugioh to make it look more mysterious and within the color scheme of the cards from monster effects, to spells, traps and the newer cards which Konami have introduced, for example; XYZ , Synchro and Link monsters.
+
+ ![Contrast Grid](doc/screenshots/color-scheme.webp)
