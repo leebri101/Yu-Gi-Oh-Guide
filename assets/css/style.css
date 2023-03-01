@@ -112,7 +112,7 @@ h6{
     content:'';
     transform: rotate(45deg);
     margin-top: -15px;
-    background: #504c80;
+    background: #35345c;
 }
 
 .boxed-border{
@@ -140,7 +140,7 @@ h6{
     content:'';
     transform: rotate(45deg);
     margin-top: -15px;
-    background: #504c80;
+    background: #35345c;
 }
 
 .container{
@@ -167,7 +167,7 @@ h6{
     content:'';
     transform: rotate(45deg);
     margin-top: -10px;
-    background: #504c80;
+    background: #35345c;
 }
 
 .text-box{
@@ -194,7 +194,7 @@ h6{
     content:'';
     transform: rotate(45deg);
     margin-top: -6px;
-    background: #504c80;
+    background: #35345c;
 }
 
 li{
@@ -408,7 +408,7 @@ hr{
     height: 367px;
     padding: 100px;
     border-style: solid;
-    border-color: #504c80;
+    border-color: #35345c;
     border-collapse: collapse;
     margin: 0 auto;
     object-fit: fill;
