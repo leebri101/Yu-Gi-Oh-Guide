@@ -13,8 +13,8 @@ In the development phase, I was manually testing the site in two ways:-
   2. Firefox  
   3. Edge
 
-* I also used devtools to experiment the different screen sizes and devices from 320 px up to 4000px in width. 
-* I have also asked a small group of people to test the site using Apple & Android products using safari. The users reported back with no issues or bugs only styling suggestions which will be implimented in the near future.
+* I also used devtools to experiment the different screen sizes and devices from 450px up to 4000px in width. 
+* I have also asked a small group of people to test the site using Apple & Android products using safari. The users reported back with no issues with overall content but with minor styling amendmants or styling suggestions which will be implimented in the near future with further testing.
 
 ## **Validator Testing**
 
@@ -37,10 +37,11 @@ In the development phase, I was manually testing the site in two ways:-
 #### **Desktop Version:**
 I have only included a screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
 
-![Desktop Lighthouse Score](doc/screenshots/desktop-lighthouse-score.png) 
+![Desktop Lighthouse Score](doc/screenshots/desktop-lighthouse-score.webp) 
 
 **Required to get attain the score:**
 
+1. A majority of the images used in the project are either JPEGs or PNGs which meant that it affected the performance on mobile but not on desktop, compressing the images help increase the perfomance score.
 
 <!--
 Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. 
