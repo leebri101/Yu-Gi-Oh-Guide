@@ -31,7 +31,7 @@ In the development phase, I was manually testing the site in two ways:-
 
 ### **Lighthouse Scoring**
 ### **Testing Conditions:**
-* I have ran the tests for mobile and desktop. 
+* I have git sran the tests for mobile and desktop. 
 * I have asked a small group of people to run lighthouse tests from their own devices. 
 
 #### **Desktop Version:**
