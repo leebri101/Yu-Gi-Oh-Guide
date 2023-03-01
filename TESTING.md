@@ -58,30 +58,36 @@ I have only included a screenshot for desktop as all pages were the same score, 
 
 ![Mobile Lighthouse Score for index.html](doc/screenshots/mobile-index.webp)
 
- * The orignal score for the performance of the page was 71%. But with compressions of the images on the page and editiing of the logo and overall text it only managed tp raise it to 75%. as a lesson for next time is to adjust the headings to an appropriate sizing for the user and for various different devices.
+ * The orignal score for the performance of the page was 71%. But with compressions of the images on the page and editiing of the logo and overall text it only managed tp raise it to 75%. As a lesson for next time is to adjust the headings to an appropriate sizing for the user and for various different devices.
 
 
  2. ***essentials.html:***
 
 ![Mobile Lighthouse Score for essentials.html](doc/screenshots/mobile-essentials.webp)
 
- * With the changes of the headiings and fonts it was tsill difficult to raise the performance of the page from 75 to at least +90% but, but for a future reference for the next project it will be more spacious and readable via the mobile version by adding shapes or reducing the wording.
+ * With the changes of the headings and fonts it was still difficult to raise the performance of the page from 75 to at least +90% but, but for a future reference for the next project it will be more spacious and readable via the mobile version by adding shapes or reducing the wording to a certain length.
 
 
  3. ***cardinfo.html:***
 
 ![Mobile Lighthouse Score for cardinfo.html](doc/screenshots/mobile-cardinfo.webp)
 
-* Overall a good set of ratings as most of the layout was configured to a more mobile friendly look, but this will need to be consistent overall for any next projects that i create. 
+* Overall a good set of ratings as most of the layout was configured to a more mobile friendly look, but this will need to be consistent overall for any next projects that I create. 
 
 4. ***decks.html:***
 ![Mobile Lighthouse Score for deck.html](doc/screenshots/mobile-decks.webp)
 
-* A simple linear gallery at which it links in with an extrenal site from card to deck which as most of the cards are consistently within the same height and width
+* A simple linear gallery at which it links in with an extrenal site from card to deck which as most of the cards are consistently within the same height and width.
 
 5. ***play.html:***
+
 ![Mobile Lighthouse Score for play.html](doc/screenshots/mobile-play.webp)
+
+* A simple static page but with a nice layout for the turns, but it raised the performance from 75% to 81% with rending of all the yugioh cards on the page and with adjustments to the text sizing and also the colour scheme of the text to make it more user friendly. 
 
 
 6. ***banlist.html:***
+
 ![Mobile Lighthouse Score for banlist.html](doc/screenshots/mobile-banlist.webp) 
+
+* As this last page was to be a simple table of theme of each of the cards listed in the 2023 banlist it had two amber ratings of both performance and accessibility. Performance due to one of the most common flagged issue was "Serve static assets with an efficient cache policy" at which even compressing the imnage it still flagged up. As a lesson to learn next time to either use a WEBP or AVIF format to reduce loading times and space of images.
