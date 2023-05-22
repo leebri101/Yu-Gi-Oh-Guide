@@ -248,13 +248,12 @@ a:hover{
 }
 
 .active{
-    border-bottom: 3px solid #6861c2;
+    border-bottom: 3px solid #c5376f;
 }
 
 /* Banners for top page */
 #banner-outer{
-    height: 450px;
-    width: 100%; 
+    height: 450px; 
     overflow: hidden;
     position: relative;
 }  
@@ -409,8 +408,9 @@ hr{
 }
 
 #square-cover-bg{ 
-    background-image: url('../images/playing-mat.png');
+    background-image: url('../images/playing-mat.webp');
     height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     object-fit: fill;
 } 
