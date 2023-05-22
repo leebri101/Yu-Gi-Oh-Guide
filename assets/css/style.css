@@ -40,14 +40,80 @@ p{
     border: none;
  }
 
-/* Headers styling*/
+/* Font awesome icon styling*/
+.fa-brands{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook{
+    background: #3B5998;
+    color: #ffff;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: #ffff;
+}
+
+/* Instagram */
+.fa-instagram{
+    background: linear-gradient(#e66465, #9198e5);
+    color: #ffff;
+}
+
+/* Youtube */
+.fa-youtube{
+    background: #bb0000;
+    color: #ffff;
+}
+
+/* Twitch */
+.fa-twitch{
+    background: #6441a5;
+    color: #ffff;
+}
+
+/* Xbox */
+.fa-xbox{
+    background:#107c10;
+    color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    border-radius: 50%;
+}
+
+/* Play-Station */
+.fa-playstation{
+    background: #0070D1;
+    color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    border-radius: 50%;
+}
+
+/* Heading styling */
 h1{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: #bfa34d;
     position: relative;
-    
+    float: left;
 } 
 
 h2{
@@ -176,11 +242,10 @@ h6{
     background: #35345c;
 }
 
-
+/* Lists styling */
 li{
     font-size: 20px;
 }
-
 ul{
     position: static;
 }
@@ -192,35 +257,23 @@ ul{
     line-height: 30px;
     margin-left: 10px;
     font-size: 30px;
- }
+}
 
 /* Menu list styling and weblinks */
 #menu, logo{
-    text-decoration: none;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 #menu{
     overflow: hidden;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     position: relative;
     font-size: 20px;
 }
-/*
-#menu li{
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-    position: relative;
-    margin-right: 40px;
-    font-size: 20px;
-    line-height: 45px;
-}
-*/
+
 #menu a{
     float: right;
-    text-decoration: none;
-    color: #ddc682;
+    color: #d4b454;
     position: relative;
     text-align: center;
     padding: 14px 14px;
@@ -234,7 +287,7 @@ ul{
 
 /* Weblink styles for user when visting and hovering */
 a:link{
-    color:#bfa34d;
+    color:#d4b454;
     background-color: transparent;
     text-decoration: none;
 }
@@ -246,7 +299,7 @@ a:visited{
 }
 
 a:hover{
-    color:#bfa34d;
+    opacity: 0.65;
     background-color: transparent;
     text-decoration: none;
 }
@@ -268,7 +321,7 @@ a:hover{
     width: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fill;
     background-position: center;
 }
 
@@ -306,7 +359,7 @@ a:hover{
 }
 
 hr{
-    border-top: 1px solid #bfa34d;
+    border-top: 1px solid #d4b454;
     width: 100%;
     margin: 5px 0;
 }
@@ -340,7 +393,7 @@ hr{
 
 #welcome{
     text-align: center;
-    color: #bfa34d;
+    color: #d4b454;
     margin-top: 30px;
     font-size: 250%;
 } 
@@ -505,7 +558,7 @@ hr{
 }
 
 #synchro td, #synchro th {
-    border: 5px solid #cccccc ;
+    border: 5px solid #a8a7a7;
     padding: 8px;
     font-size: 80%;
 }
@@ -514,7 +567,7 @@ hr{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #cccccc;
+    background-color: #a8a7a7;
     color: white;
     font-size: 80%;
 }
