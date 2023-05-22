@@ -181,6 +181,10 @@ li{
     font-size: 20px;
 }
 
+ul{
+    position: static;
+}
+
 /* logo styling */
 #logo {
     text-decoration: none;
@@ -396,23 +400,14 @@ hr{
 }
 
 /* Play-mat styling */
-#square-container{
-    width: 413px;
-    height: 367px;
-    padding: 100px;
-    border-style: solid;
-    border-color: #35345c;
-    border-collapse: collapse;
-    margin: 0 auto;
-    object-fit: fill;
-}
-
-#square-cover-bg{ 
+#play-mat{ 
     background-image: url('../images/playing-mat.webp');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     object-fit: fill;
+    position: relative;
 } 
 
 /* Photo and imaging styling */
@@ -428,7 +423,7 @@ hr{
 #photos > img{
     width: 100%;
 }
- 
+
 #imgsize{
     width: 40%;
     margin: 0 auto;
