@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
+/* Body of all texts */
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -8,6 +9,7 @@ body {
     background-color: #35345c;
    } 
 
+/* footer styling */
 footer{
     height: 150px;
 }
@@ -16,6 +18,7 @@ p{
     font-size: 85%;
 }
 
+/* social media styling */
 .social-media{
     text-align: center;
 }
@@ -36,7 +39,8 @@ p{
     margin: 0px;
     border: none;
  }
-   
+
+/* Headers styling*/
 h1{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -87,6 +91,7 @@ h6{
     text-align: center;
 }
 
+/* Text-box stylings */
 .box{
     position: relative;
     max-width: 550px;
@@ -143,6 +148,7 @@ h6{
     background: #35345c;
 }
 
+/* Box styling for footer pages */
 .container{
     position: relative;
     max-width: 550px;
@@ -170,37 +176,12 @@ h6{
     background: #35345c;
 }
 
-.text-box{
-    position: relative;
-    max-width: 550px;
-    height:auto;
-    border: 3px solid #006ead;
-    margin: 20px auto;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.text-box:after{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid #06ffe3;
-    border-bottom: 2px solid #06ffe3;
-    border-left: 2px solid #06ffe3;
-    border-right: 2px solid #06ffe3;
-    top: 100%;
-    left: 50%;
-    margin-left: -15px;
-    content:'';
-    transform: rotate(45deg);
-    margin-top: -6px;
-    background: #35345c;
-}
 
 li{
     font-size: 20px;
 }
 
+/* logo styling */
 #logo {
     text-decoration: none;
     float: left;
@@ -209,17 +190,19 @@ li{
     font-size: 30px;
  }
 
+/* Menu list styling and weblinks */
 #menu, logo{
     text-decoration: none;
     line-height: 30px;
 }
 
 #menu{
-    text-decoration: none;
+    overflow: hidden;
     letter-spacing: 2px;
     position: relative;
     font-size: 20px;
 }
+/*
 #menu li{
     float: right;
     list-style-type: none;
@@ -229,10 +212,15 @@ li{
     font-size: 20px;
     line-height: 45px;
 }
+*/
 #menu a{
+    float: right;
     text-decoration: none;
     color: #ddc682;
     position: relative;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
     font-size: 20px;
 }
 #menu a:hover{
@@ -240,6 +228,7 @@ li{
     color: #c5376f;
 }
 
+/* Weblink styles for user when visting and hovering */
 a:link{
     color:#bfa34d;
     background-color: transparent;
@@ -259,10 +248,10 @@ a:hover{
 }
 
 .active{
-    border-bottom: 4px solid #6861c2;
+    border-bottom: 3px solid #6861c2;
 }
 
-
+/* Banners for top page */
 #banner-outer{
     height: 450px;
     width: 100%; 
@@ -280,6 +269,7 @@ a:hover{
     background-position: center;
 }
 
+/* Homepage styling */
 #home-page{
     height:600px;
 }
@@ -318,6 +308,7 @@ hr{
     margin: 5px 0;
 }
 
+/* Center image styling on home page */
 .left-about-heading{
     width: 60%;
     float: right;
@@ -351,9 +342,9 @@ hr{
     font-size: 250%;
 } 
 
-
+/* Card image styling */
 #card-container{
-    width: 600px;
+    width: 100%;
     height: 875px;
     padding: 30px;
     margin: 0 auto;
@@ -361,13 +352,14 @@ hr{
 
 #card-img{
     background-image: url('../images/galaxy_eyes_prime_photon_dragon.jpg');
-    width: 600px;
+    width: 100%;
     height: 800px;
     background-repeat: no-repeat;
     object-fit: contain;
     place-items: center;
 }
 
+/* Homepage container for linkkuriboh */
 #circle-container{
     width: 350px;
     height: 350px;
@@ -393,6 +385,7 @@ hr{
     animation-fill-mode: forwards;
 }
 
+/* Key-frames and animations */
 @keyframes kuriboh-zoom {
     from{
         transform: scale(1);
@@ -403,6 +396,7 @@ hr{
     }
 }
 
+/* Play-mat styling */
 #square-container{
     width: 413px;
     height: 367px;
@@ -421,6 +415,7 @@ hr{
     object-fit: fill;
 } 
 
+/* Photo and imaging styling */
 #photos{
     clear: both;
     line-height: 0;
@@ -596,9 +591,10 @@ hr{
     font-size: 80%;
 }
 
+
 @media screen and (max-width:1200px) {
     #home-page {
-        width: 65%;
+        width: 100%;
         height: 1200px;
         margin: 0 auto;
     }
