@@ -15,7 +15,7 @@ footer{
 }
 
 p{
-    font-size: 85%;
+    font-size: 0.8em;
 }
 
 /* social media styling */
@@ -360,19 +360,19 @@ hr{
     margin: 5px 0;
 }
 
-/* Center image styling on home page */
+/* left about image styling on home page */
 .left-about-heading{
     width: 50%;
     float: right;
-    line-height: 15px;
+    line-height: 18px;
     clear: both;
     margin-bottom: 30px;
 }
-
+/* right about styling */
 .right-about-heading{
     width: 50%;
     float: left;
-    line-height: 15px;
+    line-height: 18px;
     clear: both;
     margin-bottom: 30px;
 }
@@ -395,7 +395,7 @@ hr{
     margin: 0 auto;
 }
 
-/**/
+/*Card info image styling*/
 #card-img{
     background-image: url('../images/galaxy_eyes_prime_photon_dragon.jpg');
     width: 100%;
