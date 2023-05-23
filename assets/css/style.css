@@ -9,9 +9,9 @@ body {
     background-color: #35345c;
    } 
 
-/* footer styling */
+/* Footer styling */
 footer{
-    height: 150px;
+    height: 100px;
 }
 
 p{
@@ -21,6 +21,7 @@ p{
 /* social media styling */
 .social-media{
     text-align: center;
+    padding: 10px;
 }
 
 .social-media > li{
@@ -42,7 +43,7 @@ p{
 
 /* Font awesome icon styling*/
 .fa-brands{
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
@@ -88,7 +89,6 @@ p{
     padding: 10px;
     font-size: 20px;
     width: 20px;
-    text-align: center;
     text-decoration: none;
     margin: 3px 1px;
     border-radius: 50%;
@@ -366,17 +366,17 @@ hr{
 
 /* Center image styling on home page */
 .left-about-heading{
-    width: 60%;
+    width: 50%;
     float: right;
-    line-height: 30px;
+    line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
 .right-about-heading{
-    width: 60%;
+    width: 50%;
     float: left;
-    line-height: 30px;
+    line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -430,6 +430,7 @@ hr{
 #circle-cover-bg{
     background-image: url('../images/linkuriboh.jpg');
     height: 100%;
+    width: 100%;
     border-radius: 50%;
     object-fit: fill;
     background-repeat: no-repeat;
