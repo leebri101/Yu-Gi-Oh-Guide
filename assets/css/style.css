@@ -344,24 +344,13 @@ a:hover{
 }
 
 #right-about{
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#right-side{
-    padding-top: 30px;
+    padding-top: 40px;
     width: 33%;
     float: right;
 }
 
 #center-about{
     width:33%;
-    margin: 0 auto;
-}
-
-#center{
-    width:100%;
     margin: 0 auto;
 }
 
@@ -375,7 +364,7 @@ hr{
 .left-about-heading{
     width: 50%;
     float: right;
-    line-height: 10px;
+    line-height: 15px;
     clear: both;
     margin-bottom: 30px;
 }
@@ -383,7 +372,7 @@ hr{
 .right-about-heading{
     width: 50%;
     float: left;
-    line-height: 10px;
+    line-height: 15px;
     clear: both;
     margin-bottom: 30px;
 }
@@ -401,7 +390,7 @@ hr{
 /* Card image styling */
 #card-container{
     width: 100%;
-    height: 875px;
+    height: 100%;
     padding: 30px;
     margin: 0 auto;
 }
