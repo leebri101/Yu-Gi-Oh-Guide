@@ -264,6 +264,7 @@ ul{
     line-height: 20px;
 }
 
+/*Nav Menu*/
 #menu{
     overflow: hidden;
     letter-spacing: 1.5px;
@@ -271,6 +272,7 @@ ul{
     font-size: 20px;
 }
 
+/*Nav menu link colors*/
 #menu a{
     float: right;
     color: #d4b454;
@@ -280,6 +282,8 @@ ul{
     text-decoration: none;
     font-size: 20px;
 }
+
+/*Nav menu hovering*/
 #menu a:hover{
     text-decoration: none;
     color: #c5376f;
@@ -292,12 +296,14 @@ a:link{
     text-decoration: none;
 }
 
+/*Visited links*/
 a:visited{
     color:#c5376f;
     background-color: transparent;
     text-decoration: none;
 }
 
+/*Link hovering styling*/
 a:hover{
     opacity: 0.65;
     background-color: transparent;
@@ -308,13 +314,14 @@ a:hover{
     border-bottom: 3px solid #c5376f;
 }
 
-/* Banners for top page */
+/* Banner styling */
 #banner-outer{
     height: 450px; 
     overflow: hidden;
     position: relative;
 }  
-   
+
+/*Main banner for main page*/
 #banner{
     background-image: url('../images/yugioh-wallpaper.jpg'); 
     height: 450px;
@@ -368,17 +375,17 @@ hr{
 .left-about-heading{
     width: 50%;
     float: right;
-    line-height: 20px;
+    line-height: 10px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .right-about-heading{
     width: 50%;
     float: left;
-    line-height: 20px;
+    line-height: 10px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .right-about-heading{
@@ -391,13 +398,6 @@ hr{
     text-align: right;
 }
 
-#welcome{
-    text-align: center;
-    color: #d4b454;
-    margin-top: 30px;
-    font-size: 250%;
-} 
-
 /* Card image styling */
 #card-container{
     width: 100%;
@@ -406,6 +406,7 @@ hr{
     margin: 0 auto;
 }
 
+/**/
 #card-img{
     background-image: url('../images/galaxy_eyes_prime_photon_dragon.jpg');
     width: 100%;
@@ -464,25 +465,16 @@ hr{
     position: relative;
 } 
 
-/* Photo and imaging styling */
+/* Photos and imaging styling */
 #photos{
     clear: both;
-    line-height: 0;
-    column-count: 4;
+    line-height: 1;
+    column-count: 3;
     column-gap: 0;
-    position: relative;
-    object-fit: contain;
 }
 
 #photos > img{
     width: 100%;
-}
-
-#imgsize{
-    width: 40%;
-    margin: 0 auto;
-    place-items: center;
-    column-count: 5;
 }
 
 #monster-effect{
@@ -640,7 +632,7 @@ hr{
     font-size: 80%;
 }
 
-
+/*Media settings of 1200px*/
 @media screen and (max-width:1200px) {
     #home-page {
         width: 100%;
@@ -648,28 +640,34 @@ hr{
         margin: 0 auto;
     }
 
+    /**/
     #welcome{
         padding: 30px 0;
         margin: 0;
     }
 
+    /**/
     #left-about, #right-about{
         width: 100%;
         float: left;
         padding: 0;
     }
 
+
+    /**/
     #center-about{
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
-    
+
+    /**/
     hr{
         display: none;
     }
 
+    /**/
     #square-container > div {
         width: 100%;
         clear: both;
@@ -678,6 +676,7 @@ hr{
     }
 }
 
+/**/
 @media screen and (max-width:950px) {
     #menu{
         clear:left;
@@ -687,40 +686,48 @@ hr{
         line-height: 5px;
     }
 
+    /**/
     #home-page{
         width:100%;
         height: 950px;
         margin: 0 auto;
     }
 
+    /**/
     .left-about-heading, .right-about-heading{
         width: inherit;
     }
     
+    /**/
     .left-about-heading h2, .right-about-heading h2{
         width: 100%;
         text-align: center;
     }
 
+    /**/
     .left-about-heading h3, .right-about-heading h3{
         width: 100%;
         text-align: center;
     }
 
+    /**/
     .left-about-heading h4, .right-about-heading h4{
         width: 100%;
         text-align: center;
     }
 
+    /**/
     .left-about-heading p, .right-about-heading p{
         text-align: center;
         padding: 0 20px;
     }
 
+    /**/
     #photos{
         column-count: 1;
     }
     
+    /**/
     #banner{
         height: 150px;
         width: 100%;
@@ -730,6 +737,7 @@ hr{
         background-position: center;
     }
 
+    /**/
     #banner-outer{
         height: 150px;
         width: 100%; 
@@ -737,5 +745,4 @@ hr{
         position: relative;
     }  
 
-   
 }
