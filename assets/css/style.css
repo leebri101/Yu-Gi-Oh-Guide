@@ -138,7 +138,7 @@ h4{
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ddc682;
-    font-size: 75%;
+    font-size: 65%;
 }
 
 h5{
@@ -218,7 +218,7 @@ h6{
     height:auto;
     width: 100%;
     border: 3px solid #006ead;
-    margin: 20px ;
+    margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
 }
