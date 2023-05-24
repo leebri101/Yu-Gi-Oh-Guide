@@ -455,6 +455,9 @@ hr{
     column-count: 4;
     column-gap: 3;
 }
+#photo{
+    column-count: 1;
+}
 
 #photos > img{
     width: 100%;
@@ -706,7 +709,7 @@ hr{
     }
 
     /**/
-    #photos{
+    #photo{
         column-count: 1;
     }
     
@@ -714,7 +717,7 @@ hr{
         column-count: 1;
         line-height: 1;
         position: absolute;
-        left: 10%;
+        left: 5%;
     }
     /**/
     #banner{
