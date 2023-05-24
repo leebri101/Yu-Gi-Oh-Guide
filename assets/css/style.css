@@ -199,12 +199,9 @@ h6{
 
 .boxed-border:after{
     position: absolute;
-    width: 30px;
-    height: 30px;
-    border-top: 5px solid #c5376f;
-    border-bottom: 5px solid #c5376f;
-    border-left: 5px solid #c5376f;
-    border-right: 5px solid #c5376f;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #c5376f;
     top: 100%;
     left: 50%;
     margin-left: -20px;
@@ -229,10 +226,7 @@ h6{
     position: absolute;
     width: 20px;
     height: 20px;
-    border-top: 2px solid #06ffe3;
-    border-bottom: 2px solid #06ffe3;
-    border-left: 2px solid #06ffe3;
-    border-right: 2px solid #06ffe3;
+    border: 2px solid #06ffe3;
     top: 100%;
     left: 50%;
     margin-left: -19px;
@@ -457,9 +451,9 @@ hr{
 /* Photos and imaging styling */
 #photos{
     clear: both;
-    line-height: 0;
+    line-height: 1;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 3;
 }
 
 #photos > img{
@@ -716,6 +710,12 @@ hr{
         column-count: 1;
     }
     
+    #photos{
+        column-count: 1;
+        line-height: 1;
+        position: absolute;
+        left: 10%;
+    }
     /**/
     #banner{
         height: 150px;
