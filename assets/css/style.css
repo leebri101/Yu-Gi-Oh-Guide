@@ -216,8 +216,9 @@ h6{
     position: relative;
     max-width: 550px;
     height:auto;
+    width: 100%;
     border: 3px solid #006ead;
-    margin: 20px auto;
+    margin: 20px ;
     padding: 10px;
     box-sizing: border-box;
 }
