@@ -405,11 +405,8 @@ hr{
     width: 350px;
     height: 350px;
     padding: 10px;
-    border-style: solid;
-    border-color: #c5376f;
-    border-width: 10px;
-    border-radius: 100%;
-    margin: 0 auto;
+    border: solid #c5376f 10px 100%;
+    margin: 10px auto;
 }
 
 #circle-cover-bg{
