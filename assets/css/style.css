@@ -321,7 +321,7 @@ a:hover{
     width: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
 }
 
@@ -401,10 +401,9 @@ hr{
 
 /* Homepage container for linkkuriboh */
 #circle-container{
-    width: 350px;
-    height: 350px;
+    width: 325px;
+    height: 325px;
     padding: 10px;
-    border: solid #c5376f 10px 100%;
     margin: 10px auto;
 }
 
@@ -450,7 +449,7 @@ hr{
     clear: both;
     line-height: 1;
     column-count: 4;
-    column-gap: 3;
+    column-gap: 0;
 }
 #photo{
     column-count: 1;
