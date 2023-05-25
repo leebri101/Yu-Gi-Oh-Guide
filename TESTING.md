@@ -29,37 +29,23 @@ In the development phase, I was manually testing the site in two ways:-
 
 * Below is the list of bugs and solutions used during the development & testing phase of the project.
 
-1. **Outcome** - Correct sizing of playing mats to fit to all versions of the pages on different devices and removal of disorientated images.
+1. **Outcome** - Correct sizing of playing mats to fit to all versions of the pages on different devices and removal of disorientated images by using width: 100%;.
     * **Issue Found:**
         * Playing mats on both the tutorial not resizing itself due to the image itself.
     * **Solution:**
-        * Found a smaller version of the mat as none of the sources upon the development phase actually had an appropriate sized one which can be scaled down even upon adjusting the size.
+        * Changed the original image to smaller set of dimensions and used the code width: 100% to keep the image within the site widths so there is no visable horizontal scroll.
 
-1. **Outcome** - Adjusted all the cards to 400px width and 300px height to fit into one page and not stretch out.
+1. **Outcome** - Adjusted all the cards width: 100%; to fit into one page and not stretch out.
     * **Issue Found:**
         * Yugioh card sizing issues on mobile pages
     * **Solution:**
-        * Scaling down the size of the cards to a width of at least 400px and a height of 300px helped keep all pages consistently neat and user friendly.
-
-1. **Outcome** - Consistent banner outlook for all pages on mobile 
-    * **Issue Found:**
-        * Mobile link has issues with banner and is not shurnk to mobile phone sizing.
-    * **Solution:**
-        * Adjusted the codinng within CSS to adapt within a mobiile setting.
-
-1. **Outcome** - Cleaner overall appearance with either little gaps or no gaps on pages
-    * **Issue Found:**
-        * When zooming out on the mobile site you see the zoomed out version in mobile and not a fully static version with its dimensions in place.
-    * **Solution:**
-        * Removal of unwanted images or text which affects the overall appearance of the mobile version
-   
+        * Scaling down the size of the cards to a width of 100% so the image is not distorted and not blurred. 
 
 1. **Outcome** - Cleaner look of the banlist with no gaps 
     * **Issue Found:**
         * Bordering issues on the banlist as it caused a large gap in the mobile site. 
     * **Solution:**
-        * Fixed bordering issue on banlist by removing remarks as not many cards had any remarks.
-
+        * Fixed bordering issue on banlist by reducing the font size by percentage from 80% to 75% with width of 100%.
 
 
 ## **Post Development Testing Phase**

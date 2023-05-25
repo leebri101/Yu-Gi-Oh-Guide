@@ -246,7 +246,7 @@ This project was a very fun and interesting way to showcase what i was capable o
 
 ### **General reference:**
 * The project was inspired by the Code Institute's coding project called Love Running. i have tried to change as much as possible but there may be some similarties within the codes.
-* I have also used W3Schools for useful tips on coding and the genereic basic coding in case i forgot.
+* I have also used W3Schools for useful tips on coding and the generic coding and for tips and tricks.
 
 ### **Content:**
 * All the content produced by me was all written by hand with the excemption of banlist.html as a majority of the data for the card names have been copied for accuracy. 
