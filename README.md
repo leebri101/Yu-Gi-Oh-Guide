@@ -160,18 +160,18 @@ the picture used for the main banner for all of the pages is from a fan based si
 * At which i have created a seperate code in style.css to show that once the user has been to the site it will change from gold to red.
 
 ## **Footer**
-* The footer has direct links to all of the offcial social media accounts of the Yu-Gi-oh franchise with an open invitation to follow all channels. 
+* The footer has direct links to all of the offcial social media accounts of the Yu-Gi-oh franchise. Each of the icons are unique with their own colours for their own branding. 
 
 * All the icons were imported from  the font awesome site using Javascript at the bottom of the page.
 
 * In some of the footers on the rest of the pages I have included that a disclaimer that the site that is being built is merely a fan-based site at which it acts as a guide for returning or new players interested in the franchise and that all of the stated material goes to the rightful owners of the Yu-Gi-Oh franchise of STUDIO DICE/SHUEISHA, TV TOKYO, and KONAMI.
 
-![Footer-Page](doc/screenshots/footer.webp)
+![Footer-Page](doc/screenshots/social-media-icons.webp)
 
 ## **Typesetting**
  Throughput the project all of the fonts that were used were primarily 
   * Oswald - for an eyecatching look.
-  * Space mono- for the retro gaming effect it has.#
+  * Space mono- for the retro gaming effect it has.
 
   * All Fonts that have been sued have been sourced from Google Fonts (as quoted in the credits)
 
@@ -181,6 +181,8 @@ the picture used for the main banner for all of the pages is from a fan based si
 
 * The main page gives a brief overview of what yugioh is. 
 * The linked youtube video is showcasing tips and tricks on returning player son how to get better at the TCG game. 
+* It also has its distinctive well-known gaming icons of both Sony and Microsoft.
+
 ![About-Page](doc/screenshots/about-page.webp)
 
 ### **Essentials-Page Contents:**
@@ -198,7 +200,7 @@ the picture used for the main banner for all of the pages is from a fan based si
 
 ### **Decks-Page Contents:**
 * The Decks page offer fan favourites to the top tier meta cards at which many players use in various tournaments.
-* Each of the cards are clickable and will send the user to an external site which will show teh user of the full deck to build, if they choose to do so.
+* Each of the cards are clickable and will send the user to an external site which will show the user of the full deck to build, if they choose to do so.
 ![Decks-page](doc/screenshots/top-10-decks.webp)
 
 ### **How-to-play-Page Contents:**
@@ -213,10 +215,10 @@ the picture used for the main banner for all of the pages is from a fan based si
 
 
 ## **Potential-Features**
-* Due to the personal busy schedule i have had many ideas at which i want to implement for this site were not added. But these are the ideas at whic i would like ti impliment in t henear future:
+* Due to the personal busy schedule I have had many ideas at which i want to implement for this site were not added. But these are the ideas at whic i would like ti impliment in t henear future:
     * A scrollable gallery with the deck so that all the cards are not static
     * links to each individual card within the ban list table to allow for an easier naviagtion for the user.
-    * An interactive animation at whic it shows the user on how to play specfic cards. 
+    * An interactive animation at which it shows the user on how to play specfic cards. 
 
 * Once I have better knowledge of learning Javascript later on the course i would like to add a drop down menu either on the side or the top of the page which allows for an accessible way of naviagting different tabs or different information. 
 
@@ -231,7 +233,6 @@ The project has been deployed with the following steps: -
 2. Then select the **Pages** menue tab on the left side.
 3. Under **Source** then, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will then show that the porject has been successfully launched with the live link.
-
 ***
 
  ## **Credits**
@@ -249,7 +250,6 @@ This project was a very fun and interesting way to showcase what i was capable o
 
 ### **Content:**
 * All the content produced by me was all written by hand with the excemption of banlist.html as a majority of the data for the card names have been copied for accuracy. 
-* The excerpt from Transform your life on teachings.html - [kadampa.org](https://kadampa.org/reference/buddhist-beliefs)
 * Icons that were used throughout the project were taken from [Font-Awesome](https://fontawesome.com/)
 * The golden gradient colour scheme - [brandgradients.com](http://www.brandgradients.com/gold-gradient).
 * All fonts used have been imported from - [Google-Fonts](https://fonts.google.com/)
